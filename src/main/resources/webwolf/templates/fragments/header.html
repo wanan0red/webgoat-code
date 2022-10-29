@@ -1,0 +1,66 @@
+<html xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity4">
+<!--使用Thymeleaf 的命名空间 thymeleaf提供的spring security标签-->
+<head>
+    <title>WebWolf</title>
+    <div th:fragment="header-css">
+<!--      通过th:fragment来定义引用片段,然后可以在其他页面进行引用-->
+        <link rel="icon" th:href="@{/css/img/webwolf.ico}">
+<!--      th:href用于声明href属性的连接  用于显示web应用中的url连接 通过该@{} 表达式thymeleaf可以帮助我们拼接上web应用的访问的全路径,同时我们可以通过() 进行参数拼接-->
+        <link rel="stylesheet" type="text/css" th:href="@{/webjars/bootstrap/3.3.7/css/bootstrap.min.css}"/>
+<!--这里是由于pom.xml中定义了这个bootstrap版本 也就是被引入了webjars文件下面了.这里才这样写 但是这并不利于前后分离-->
+        <link rel="stylesheet" th:href="@{/css/webwolf.css}"/>
+<!--       引入自定义的css文件-->
+        <script th:src="@{/webjars/jquery/3.5.1/jquery.min.js}"></script>
+        <script th:src="@{/webjars/bootstrap/3.3.7/js/bootstrap.min.js}"></script>
+    </div>
+</head>
+<body>
+<div th:fragment="header">
+    <nac class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" th:href="@{/home}">WebWolf</a>
+            </div>
+
+            <ul class="nav navbar-nav">
+                <li class="active"><a th:href="@{/home}">Home</a> </li>
+            </ul>
+
+            <ul class="nav navbar-nav">
+                <li><a th:href="@{/files}">Files</a> </li>
+            </ul>
+            <ul class="nav navbar-nav">
+                <li><a th:href="@{/mail}">Mailbox</a> </li>
+            </ul>
+            <ul class="nav navbar-brand">
+                <li><a th:href="@{/requests}">Incoming requests</a></li>
+            </ul>
+
+            <ul class="nav navbar-nav">
+                <li><a th:href="@{/jwt}">JWT</a> </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#"></a>
+                         <span sec:authorize="isAuthenticated()"></span>
+<!--                    这里的意思是如果在认证通过的时候才显示-->
+                    <span class="glyphicon glyphicon-user">
+                        <span th:text="${#authentication.name}"></span>
+<!--                        取值-->
+                    </span>
+                </li>
+                <li><a th:href="@{/logout}">
+                    <span sec:authorize="isAuthenticated()">
+                        Sign out
+                    </span>
+                </a> </li>
+
+            </ul>
+
+
+        </div>
+    </nac>
+</div>
+</body>
+
+
+</html>

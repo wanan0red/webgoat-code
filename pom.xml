@@ -1,0 +1,816 @@
+<?xml version="1.0"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+    <!--    pom文件模型版本-->
+    <groupId>org.owasp.webgoat</groupId>
+    <!--    组织名称-->
+    <artifactId>webgoat</artifactId>
+    <!--    项目名称-->
+    <packaging>jar</packaging>
+    <!--    项目打包后的后缀 war是web项目发布用的-->
+    <version>8.2.3-SNAPSHOT</version>
+    <!--    artifact模块版本-->
+
+
+
+    <parent>
+
+        <groupId>org.springframework.boot</groupId>
+        <!--        被继承的父项目的构件表示符-->
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <!--        被继承的父项目全球唯一标识符-->
+        <version>2.6.6</version>
+        <!--        被继承的父项目的版本-->
+    </parent>
+
+
+    <name>WebGoat</name>
+    <description>WebGoat, a deliberately insecure Web Application</description>
+    <!--    项目构建环境中的前提条件-->
+    <inceptionYear>2006</inceptionYear>
+    <!--    项目创建创建时间-->
+    <url>https://github.com/WebGoat/WebGoat</url>
+    <organization>
+        <name>OWASP</name>
+        <url>https://github.com/WebGoat/WebGoat/</url>
+    </organization>
+    <!--    创建的组织-->
+    <licenses>
+        <license>
+
+            <name>GNU General Public License, version 2</name>
+            <!--license用于法律上的名称-->
+            <url>https://www.gnu.org/licenses/gpl-2.0.txt</url>
+            <!--官方的license正文页面的URL-->
+        </license>
+    </licenses>
+
+
+    <developers>
+        <!--某个项目开发者的信息-->
+        <developer>
+            <id>mayhew64</id>
+            <name>Bruce Mayhew</name>
+            <email>webgoat@owasp.org</email>
+            <organization>OWASP</organization>
+            <organizationUrl>https://github.com/WebGoat/WebGoat</organizationUrl>
+        </developer>
+        <developer>
+            <id>nbaars</id>
+            <name>Nanne Baars</name>
+            <email>nanne.baars@owasp.org</email>
+            <organizationUrl>https://github.com/nbaars</organizationUrl>
+            <timezone>Europe/Amsterdam</timezone>
+        </developer>
+        <developer>
+            <id>misfir3</id>
+            <name>Jason White</name>
+            <email>jason.white@owasp.org</email>
+        </developer>
+        <developer>
+            <id>zubcevic</id>
+            <name>René Zubcevic</name>
+            <email>rene.zubcevic@owasp.org</email>
+        </developer>
+        <developer>
+            <id>aolle</id>
+            <name>Àngel Ollé Blázquez</name>
+            <email>angel@olleb.com</email>
+        </developer>
+        <developer>
+            <id>jwayman</id>
+            <name>Jeff Wayman</name>
+            <email/>
+        </developer>
+        <developer>
+            <id>dcowden</id>
+            <name>Dave Cowden</name>
+            <email/>
+        </developer>
+        <developer>
+            <id>lawson89</id>
+            <name>Richard Lawson</name>
+            <email/>
+        </developer>
+        <developer>
+            <id>dougmorato</id>
+            <name>Doug Morato</name>
+            <email>doug.morato@owasp.org</email>
+            <organization>OWASP</organization>
+            <organizationUrl>https://github.com/dougmorato</organizationUrl>
+            <timezone>America/New_York</timezone>
+            <properties>
+                <picUrl>https://avatars2.githubusercontent.com/u/9654?v=3&amp;s=150</picUrl>
+            </properties>
+        </developer>
+    </developers>
+    <!--项目开发者列表-->
+
+    <mailingLists>
+        <mailingList>
+            <name>OWASP WebGoat Mailing List</name>
+            <subscribe>https://lists.owasp.org/mailman/listinfo/owasp-webgoat</subscribe>
+            <unsubscribe>Owasp-webgoat-request@lists.owasp.org</unsubscribe>
+            <post>owasp-webgoat@lists.owasp.org</post>
+            <archive>http://lists.owasp.org/pipermail/owasp-webgoat/</archive>
+        </mailingList>
+    </mailingLists>
+    <!--该元素描述了项目相关的所有邮件列表。自动产生的网站引用这些信息。-->
+
+    <scm>
+        <url>https://github.com/WebGoat/WebGoat</url>
+        <connection>scm:git:git@github.com:WebGoat/WebGoat.git</connection>
+        <developerConnection>scm:git:git@github.com:WebGoat/WebGoat.git</developerConnection>
+        <tag>HEAD</tag>
+    </scm>
+    <!--SCM(Source Control Management)标签允许你配置你的代码库，供Maven web站点和其它插件使用。-->
+
+
+    <issueManagement>
+        <system>Github Issues</system>
+        <url>https://github.com/WebGoat/WebGoat/issues</url>
+    </issueManagement>
+    <!--项目的问题管理系统(Bugzilla, Jira, Scarab,或任何你喜欢的问题管理系统)的名称和URL，本例为 jira-->
+
+    <properties>
+        <!-- Use UTF-8 Encoding -->
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+        <java.version>17</java.version>
+        <webgoat.port>8080</webgoat.port>
+        <webwolf.port>9090</webwolf.port>
+
+        <!-- Shared properties with plugins and version numbers across submodules-->
+        <ant.version>1.6.5</ant.version>
+        <asciidoctorj.version>2.5.2</asciidoctorj.version>
+        <bootstrap.version>3.3.7</bootstrap.version>
+        <cglib.version>2.2</cglib.version> <!-- do not update necessary for lesson -->
+        <checkstyle.version>3.1.2</checkstyle.version>
+        <commons-collections.version>3.2.1</commons-collections.version>
+        <commons-lang3.version>3.12.0</commons-lang3.version>
+        <commons-io.version>2.6</commons-io.version>
+        <commons-text.version>1.9</commons-text.version>
+        <guava.version>30.1-jre</guava.version>
+        <jjwt.version>0.9.1</jjwt.version>
+        <jose4j.version>0.7.6</jose4j.version>
+        <jsoup.version>1.14.3</jsoup.version>
+        <jquery.version>3.5.1</jquery.version>
+        <maven-compiler-plugin.version>3.8.0</maven-compiler-plugin.version>
+        <maven-failsafe-plugin.version>2.22.0</maven-failsafe-plugin.version>
+        <maven-jar-plugin.version>3.1.2</maven-jar-plugin.version>
+        <maven-javadoc-plugin.version>3.1.1</maven-javadoc-plugin.version>
+        <maven-source-plugin.version>3.1.0</maven-source-plugin.version>
+        <maven-surefire-plugin.version>3.0.0-M5</maven-surefire-plugin.version>
+        <pmd.version>3.15.0</pmd.version>
+        <thymeleaf.version>3.0.15.RELEASE</thymeleaf.version>
+        <webdriver.version>4.3.1</webdriver.version>
+        <wiremock.version>2.27.2</wiremock.version>
+        <xml-resolver.version>1.2</xml-resolver.version>
+        <xstream.version>1.4.5</xstream.version> <!-- do not update necessary for lesson -->
+        <zxcvbn.version>1.5.2</zxcvbn.version>
+    </properties>
+    <!--项目开发者属性，如即时消息如何处理等-->
+
+    <dependencyManagement>
+        <dependencies>
+
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <!--groupId 组织名称  com.zjf.www 是我创建项目用的文件路径  即公司网址-->
+                <artifactId>commons-exec</artifactId>
+                <!--artifactId 项目名称  是我新建的maven项目名称-->
+                <version>1.3</version>
+                <!--version:     artifact模块的版本-->
+            </dependency>
+            <!--            引入jar包-->
+
+            <dependency>
+                <groupId>org.asciidoctor</groupId>
+                <artifactId>asciidoctorj</artifactId>
+                <version>${asciidoctorj.version}</version>
+            </dependency>
+            <dependency>
+                <!-- jsoup HTML parser library @ https://jsoup.org/ -->
+                <groupId>org.jsoup</groupId>
+                <artifactId>jsoup</artifactId>
+                <version>${jsoup.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.nulab-inc</groupId>
+                <artifactId>zxcvbn</artifactId>
+                <version>${zxcvbn.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.thoughtworks.xstream</groupId>
+                <artifactId>xstream</artifactId>
+                <version>${xstream.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>cglib</groupId>
+                <artifactId>cglib-nodep</artifactId>
+                <version>${cglib.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>ant</groupId>
+                <artifactId>ant-launcher</artifactId>
+                <version>${ant.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>ant</groupId>
+                <artifactId>ant</artifactId>
+                <version>${ant.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>xml-resolver</groupId>
+                <artifactId>xml-resolver</artifactId>
+                <version>${xml-resolver.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.jsonwebtoken</groupId>
+                <artifactId>jjwt</artifactId>
+                <version>${jjwt.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.google.guava</groupId>
+                <artifactId>guava</artifactId>
+                <version>${guava.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>commons-io</groupId>
+                <artifactId>commons-io</artifactId>
+                <version>${commons-io.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-text</artifactId>
+                <version>${commons-text.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.bitbucket.b_c</groupId>
+                <artifactId>jose4j</artifactId>
+                <version>${jose4j.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.webjars</groupId>
+                <artifactId>bootstrap</artifactId>
+                <version>${bootstrap.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.webjars</groupId>
+                <artifactId>jquery</artifactId>
+                <version>${jquery.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.github.tomakehurst</groupId>
+                <artifactId>wiremock</artifactId>
+                <version>${wiremock.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.github.bonigarcia</groupId>
+                <artifactId>webdrivermanager</artifactId>
+                <version>${webdriver.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+    <!--继承自该项目的所有子项目的默认依赖信息。这部分的依赖信息不会被立即解析,而是当子项目声明一个依赖（必须描述group ID和artifact ID信息），如果group ID和artifact ID以外的一些信息没有描述，则通过group ID和artifact ID匹配到这里的依赖，并使用这里的依赖信息。-->
+
+    <!--在列的项目构建profile，如果被激活，会修改构建处理-->
+    <profiles>
+        <profile>
+            <!--根据环境参数或命令行参数激活某个构建处理-->
+            <id>local-server</id>
+        </profile>
+        <profile>
+            <id>start-server</id>
+            <activation>
+                <!--profile默认是否激活的标志-->
+                <activeByDefault>true</activeByDefault>
+                <!--当匹配的jdk被检测到，profile被激活。例如，1.4激活JDK1.4，1.4.0_2，而!1.4激活所有版本不是以1.4开头的JDK。-->
+            </activation>
+
+
+            <build>
+                <!--该元素设置了项目源码目录，当构建项目的时候，构建系统会编译目录里的源码。该路径是相对于pom.xml的相对路径。-->
+                <plugins>
+                    <!--plugin元素包含描述插件所需要的信息。-->
+                    <plugin>
+                        <groupId>org.codehaus.mojo</groupId>
+                        <!--插件在仓库里的group ID-->
+                        <artifactId>build-helper-maven-plugin</artifactId>
+                        <!--插件在仓库里的artifact ID-->
+                        <executions>
+                            <!--在构建生命周期中执行一组目标的配置。每个目标可能有不同的配置。-->
+                            <execution>
+                                <!--执行目标的标识符，用于标识构建过程中的目标，或者匹配继承过程中需要合并的执行目标-->
+                                <id>reserve-container-port</id>
+                                <!--绑定了目标的构建生命周期阶段，如果省略，目标会被绑定到源数据里配置的默认阶段-->
+                                <goals>
+                                    <!--配置是否被传播到子POM-->
+                                    <goal>reserve-network-port</goal>
+                                </goals>
+                                <phase>process-resources</phase>
+                                <configuration>
+                                    <portNames>
+                                        <portName>webgoat.port</portName>
+                                        <portName>webwolf.port</portName>
+                                        <portName>jmxPort</portName>
+                                    </portNames>
+                                </configuration>
+                                <!--                                这里是自定义的配置端口信息?-->
+                            </execution>
+                        </executions>
+                    </plugin>
+
+
+                    <plugin>
+                        <groupId>com.bazaarvoice.maven.plugins</groupId>
+                        <artifactId>process-exec-maven-plugin</artifactId>
+                        <version>0.9</version>
+                        <executions>
+                            <execution>
+                                <id>start-jar</id>
+                                <phase>pre-integration-test</phase>
+                                <goals>
+                                    <goal>start</goal>
+                                </goals>
+                                <configuration>
+                                    <workingDir></workingDir>
+                                    <arguments>
+                                        <argument>java</argument>
+                                        <argument>-jar</argument>
+                                        <argument>-Dlogging.pattern.console=</argument>
+                                        <argument>-Dspring.main.banner-mode=off</argument>
+                                        <argument>-Dspring.datasource.url=jdbc:hsqldb:file:${java.io.tmpdir}/webgoat
+                                        </argument>
+                                        <argument>-Dwebgoat.port=${webgoat.port}</argument>
+                                        <argument>-Dwebwolf.port=${webwolf.port}</argument>
+                                        <argument>--add-opens</argument>
+                                        <argument>java.base/java.lang=ALL-UNNAMED</argument>
+                                        <argument>--add-opens</argument>
+                                        <argument>java.base/java.util=ALL-UNNAMED</argument>
+                                        <argument>--add-opens</argument>
+                                        <argument>java.base/java.lang.reflect=ALL-UNNAMED</argument>
+                                        <argument>--add-opens</argument>
+                                        <argument>java.base/java.text=ALL-UNNAMED</argument>
+                                        <argument>--add-opens</argument>
+                                        <argument>java.desktop/java.beans=ALL-UNNAMED</argument>
+                                        <argument>--add-opens</argument>
+                                        <argument>java.desktop/java.awt.font=ALL-UNNAMED</argument>
+                                        <argument>--add-opens</argument>
+                                        <argument>java.base/sun.nio.ch=ALL-UNNAMED</argument>
+                                        <argument>--add-opens</argument>
+                                        <argument>java.base/java.io=ALL-UNNAMED</argument>
+                                        <argument>--add-opens</argument>
+                                        <argument>java.base/java.util=ALL-UNNAMED</argument>
+                                        <argument>
+                                            ${project.build.directory}/webgoat-${project.version}.jar
+                                        </argument>
+                                    </arguments>
+                                    <waitForInterrupt>false</waitForInterrupt>
+                                    <healthcheckUrl>http://localhost:${webgoat.port}/WebGoat/</healthcheckUrl>
+                                </configuration>
+                            </execution>
+                            <execution>
+                                <id>stop-jar-process</id>
+                                <phase>post-integration-test</phase>
+                                <goals>
+                                    <goal>stop-all</goal>
+                                </goals>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+        <profile>
+            <id>owasp</id>
+            <activation>
+                <activeByDefault>false</activeByDefault>
+            </activation>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.owasp</groupId>
+                        <artifactId>dependency-check-maven</artifactId>
+                        <version>6.5.1</version>
+                        <configuration>
+                            <failBuildOnCVSS>7</failBuildOnCVSS>
+                            <skipProvidedScope>true</skipProvidedScope>
+                            <skipRuntimeScope>true</skipRuntimeScope>
+                            <suppressionFiles>
+                                <!--suppress UnresolvedMavenProperty -->
+                                <suppressionFile>
+                                    ${maven.multiModuleProjectDirectory}/config/dependency-check/project-suppression.xml
+                                </suppressionFile>
+                            </suppressionFiles>
+                        </configuration>
+                        <executions>
+                            <execution>
+                                <goals>
+                                    <goal>check</goal>
+                                </goals>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+    </profiles>
+
+
+    <dependencies>
+
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <scope>runtime</scope>
+        </dependency>
+        <!--            mysql驱动-->
+
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-exec</artifactId>
+        </dependency>
+        <!--有些场景下需要在java中执行Bat命令或者Shell命令，如使用wkhtmltopdf生成pdf报表等，这时可以借助apache的commons-exec，指定ExecuteWatchdog 可以完整控制整个执行声明周期，不会产生失控进程。-->
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-validation</artifactId>
+        </dependency>
+        <!--        spring-boot-starter-validation 校验参数的实现-->
+
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <scope>provided</scope>
+            <optional>true</optional>
+        </dependency>
+        <!--        可以辅助生成构造方法,getter,setter等方法,简化代码,提高效率-->
+
+        <dependency>
+            <groupId>javax.xml.bind</groupId>
+            <artifactId>jaxb-api</artifactId>
+        </dependency>
+        <!--        由于JSK 11中移除于jaxb，使用jaxb处理XML时需要添加依赖或手动添加相应jar文件。-->
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-undertow</artifactId>
+        </dependency>
+        <!--跟tomcat一样，也是一个web服务器。-->
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+
+            <exclusions>
+                <exclusion>
+                    <groupId>org.springframework.boot</groupId>
+                    <artifactId>spring-boot-starter-tomcat</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+        <!--        SpringBoot自带监控功能Actuator，可以帮助实现对程序内部运行情况监控，比如监控状况、Bean加载情况、配置属性、日志信息等。-->
+
+
+        <dependency>
+            <groupId>org.asciidoctor</groupId>
+            <artifactId>asciidoctorj</artifactId>
+        </dependency>
+        <!--使用Spring MVC渲染Asciidoc文档-->
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-jpa</artifactId>
+        </dependency>
+        <!--        主要的作用是减少项目中的相互依赖。-->
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-security</artifactId>
+        </dependency>
+        <!--集成安全框架-->
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-thymeleaf</artifactId>
+        </dependency>
+        <!--        SpringBoot给我们推荐的模板引擎就是Thymeleaf，这模板引擎是一个高级语言的模板引擎，他的这个语法更简单，而且功能更强大。-->
+
+
+        <dependency>
+            <groupId>org.thymeleaf.extras</groupId>
+            <artifactId>thymeleaf-extras-springsecurity5</artifactId>
+        </dependency>
+        <!--        spring-security 是 spring 提供身份验证和授权的安全框架，用于后台编码，对于前端页面，Thymeleaf 模板引擎对它提供了良好的支持。-->
+
+        <dependency>
+            <groupId>org.hsqldb</groupId>
+            <artifactId>hsqldb</artifactId>
+        </dependency>
+        <!--        HSQLDB（HyperSQL Database），一个开源的java数据库，具有标准的SQL语法和Java接口。体积小，无需进行复杂的数据库配置，就可以使用，适合用于小型数据。-->
+
+        <dependency>
+            <groupId>org.jsoup</groupId>
+            <artifactId>jsoup</artifactId>
+        </dependency>
+        <!--        JAVA网络爬虫抓数据jar包Jsoup-->
+
+        <dependency>
+            <groupId>com.nulab-inc</groupId>
+            <artifactId>zxcvbn</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.thoughtworks.xstream</groupId>
+            <artifactId>xstream</artifactId>
+        </dependency>
+        <!--        XStream是一个将java对象序列化为xml以及从xml反序列化为java对象的开源类库。-->
+
+        <dependency>
+            <groupId>cglib</groupId>
+            <artifactId>cglib-nodep</artifactId>
+        </dependency>
+        <!--        cglib动态代理-->
+
+        <dependency>
+            <groupId>ant</groupId>
+            <artifactId>ant-launcher</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>ant</groupId>
+            <artifactId>ant</artifactId>
+        </dependency>
+
+
+        <dependency>
+            <groupId>xml-resolver</groupId>
+            <artifactId>xml-resolver</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>io.jsonwebtoken</groupId>
+            <artifactId>jjwt</artifactId>
+        </dependency>
+        <!--        JJwt加密解密-->
+
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+        </dependency>
+        <!--        Google工具包Guava的使用-->
+
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+        </dependency>
+        <!--        代码中经常用到io流，自己写代码比较繁琐， 推荐使用commons-io工具类。-->
+
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+        </dependency>
+        <!--        commons-lang3常用工具方法-->
+
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-text</artifactId>
+        </dependency>
+        <!--        」Apache的StringEscapeUtils转义工具类-->
+
+        <dependency>
+            <groupId>org.bitbucket.b_c</groupId>
+            <artifactId>jose4j</artifactId>
+        </dependency>
+        <!--        基于JWT规范的JWS实现token认证过程，采用JWT库jose4j-->
+
+        <dependency>
+            <groupId>org.webjars</groupId>
+            <artifactId>bootstrap</artifactId>
+        </dependency>
+        <!--        bootstrap 框架-->
+
+        <dependency>
+            <groupId>org.webjars</groupId>
+            <artifactId>jquery</artifactId>
+        </dependency>
+        <!--        jquery-->
+
+        <dependency>
+            <groupId>org.glassfish.jaxb</groupId>
+            <artifactId>jaxb-runtime</artifactId>
+        </dependency>
+        <!--由于JSK 11中移除于jaxb，使用jaxb处理XML时需要添加依赖或手动添加相应jar文件。-->
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <!--        SpringBoot之添加单元测试-->
+
+        <dependency>
+            <groupId>org.springframework.security</groupId>
+            <artifactId>spring-security-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>com.github.tomakehurst</groupId>
+            <artifactId>wiremock</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <!--        WireMock伪造服务的使用 -->
+
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <!--        java-整合selenium实现自动化测试、以及启动报错解决-->
+
+        <dependency>
+            <groupId>io.rest-assured</groupId>
+            <artifactId>rest-assured</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <!--        REST-assured是Github上一个开源项目，是一套由 Java 实现的 REST API 测试框架 它的语法非常简洁，是一种专为测试 REST API 而设计的 DSL（DSL 领域专用语言 GPL 通用编程语言）-->
+
+        <dependency>
+            <groupId>io.github.bonigarcia</groupId>
+            <artifactId>webdrivermanager</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.flywaydb</groupId>
+            <artifactId>flyway-core</artifactId>
+            <version>8.0.5</version>
+        </dependency>
+        <!--        自动化管理Webdriver驱动文件-->
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>repackage</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <excludeDevtools>true</excludeDevtools>
+                    <executable>true</executable>
+                    <mainClass>com.wanan.server.StartWebGoat</mainClass>
+                    <!-- See http://docs.spring.io/spring-boot/docs/current/reference/html/howto-build.html#howto-extract-specific-libraries-when-an-executable-jar-runs -->
+                    <requiresUnpack>
+                        <dependency>
+                            <groupId>org.asciidoctor</groupId>
+                            <artifactId>asciidoctorj</artifactId>
+                        </dependency>
+                        <dependency>
+                            <groupId>org.jruby</groupId>
+                            <artifactId>jruby-complete</artifactId>
+                        </dependency>
+                    </requiresUnpack>
+                    <jvmArguments>
+                        <!-- -Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=y,address=8000-->
+                    </jvmArguments>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>build-helper-maven-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>add-integration-test-source-as-test-sources</id>
+                        <phase>generate-test-sources</phase>
+                        <goals>
+                            <goal>add-test-source</goal>
+                        </goals>
+                        <configuration>
+                            <sources>
+                                <source>src/it/java</source>
+                            </sources>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-failsafe-plugin</artifactId>
+                <configuration>
+                    <systemPropertyVariables>
+                        <logback.configurationFile>${basedir}/src/test/resources/logback-test.xml</logback.configurationFile>
+                    </systemPropertyVariables>
+                    <argLine>-Xmx512m -Dwebgoatport=${webgoat.port} -Dwebwolfport=${webwolf.port}</argLine>
+                    <includes>**/*IntegrationTest.java</includes>
+                </configuration>
+                <executions>
+                    <execution>
+                        <id>integration-test</id>
+                        <goals>
+                            <goal>integration-test</goal>
+                        </goals>
+                    </execution>
+                    <execution>
+                        <id>verify</id>
+                        <goals>
+                            <goal>verify</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>${maven-surefire-plugin.version}</version>
+                <configuration>
+                    <argLine>
+                        --add-opens java.base/sun.nio.ch=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/sun.nio.ch=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.desktop/java.awt.font=ALL-UNNAMED
+                    </argLine>
+                    <excludes>
+                        <exclude>**/*IntegrationTest.java</exclude>
+                    </excludes>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-checkstyle-plugin</artifactId>
+                <version>${checkstyle.version}</version>
+                <configuration>
+                    <encoding>UTF-8</encoding>
+                    <consoleOutput>true</consoleOutput>
+                    <failsOnError>true</failsOnError>
+                    <configLocation>config/checkstyle/checkstyle.xml</configLocation>
+                    <suppressionsLocation>config/checkstyle/suppressions.xml</suppressionsLocation>
+                    <suppressionsFileExpression>checkstyle.suppressions.file</suppressionsFileExpression>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-enforcer-plugin</artifactId>
+                <version>3.0.0</version>
+                <executions>
+                    <execution>
+                        <id>restrict-log4j-versions</id>
+                        <phase>validate</phase>
+                        <goals>
+                            <goal>enforce</goal>
+                        </goals>
+                        <configuration>
+                            <rules>
+                                <bannedDependencies>
+                                    <excludes combine.children="append">
+                                        <exclude>org.apache.logging.log4j:log4j-core</exclude>
+                                    </excludes>
+                                </bannedDependencies>
+                            </rules>
+                            <fail>true</fail>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+
+    <repositories>
+        <!--发现依赖和扩展的远程仓库列表。-->
+        <repository>
+            <!--包含需要连接到远程仓库的信息-->
+            <id>central</id>
+            <!--远程仓库名称-->
+            <url>https://repo.maven.apache.org/maven2</url>
+            <!--远程仓库URL，按protocol://hostname/path形式-->
+            <snapshots>
+                <!--如何处理远程仓库里快照版本的下载。有了releases和snapshots这两组配置，POM就可以在每个单独的仓库中，为每种类型的构件采取不同的策略。例如，可能有人会决定只为开发目的开启对快照版本下载的支持。参见repositories/repository/releases元素-->
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
+
+    <pluginRepositories>
+        <!--发现插件的远程仓库列表，这些插件用于构建和报表-->
+
+        <pluginRepository>
+            <id>central</id>
+            <url>https://repo.maven.apache.org/maven2</url>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </pluginRepository>
+    </pluginRepositories>
+
+</project>
