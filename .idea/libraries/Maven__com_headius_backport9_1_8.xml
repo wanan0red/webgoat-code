@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.headius:backport9:1.8">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../Data/secquan/Environment/apache-maven-3.8.5/repository/com/headius/backport9/1.8/backport9-1.8.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../Data/secquan/Environment/apache-maven-3.8.5/repository/com/headius/backport9/1.8/backport9-1.8-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../Data/secquan/Environment/apache-maven-3.8.5/repository/com/headius/backport9/1.8/backport9-1.8-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

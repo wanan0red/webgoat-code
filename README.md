@@ -12,57 +12,57 @@ https://github.com/WebGoat/WebGoat.git
 
 下载mvn
 
-![image-20220524163535138](D:\MyCtf\img\image-20220524163535138.png)
+![image-20220524163535138](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220524163535138.png)
 
 环境变量
 
-![image-20220524163613082](D:\MyCtf\img\image-20220524163613082.png)
+![image-20220524163613082](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220524163613082.png)
 
 ```
 mvn -v
 ```
 
-![image-20220524163638372](D:\MyCtf\img\image-20220524163638372.png)
+![image-20220524163638372](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220524163638372.png)
 
 idea打开
 
-![image-20220524192934466](D:\MyCtf\img\image-20220524192934466.png)
+![image-20220524192934466](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220524192934466.png)
 
 jdk设置为17
 
-![image-20220524192952447](D:\MyCtf\img\image-20220524192952447.png)
+![image-20220524192952447](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220524192952447.png)
 
 改一下构建工具
 
-![image-20220524193029108](D:\MyCtf\img\image-20220524193029108.png)
+![image-20220524193029108](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220524193029108.png)
 
 下载依赖
 
-![image-20220524193046703](D:\MyCtf\img\image-20220524193046703.png)
+![image-20220524193046703](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220524193046703.png)
 
 我也是莫名其妙下完的,刚学这个不太懂
 
 找到这个目录点这个箭头,如果下载完成了的话构建就会正常的
 
-![image-20220524193157199](D:\MyCtf\img\image-20220524193157199.png)
+![image-20220524193157199](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220524193157199.png)
 
-![image-20220524193241713](D:\MyCtf\img\image-20220524193241713.png)
+![image-20220524193241713](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220524193241713.png)
 
-![image-20220524193247826](D:\MyCtf\img\image-20220524193247826.png)
+![image-20220524193247826](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220524193247826.png)
 
 这样做主要是因为spring boot没学过,不会配置
 
 # MyWebGoat
 
-![image-20220702155125505](D:\MyCtf\img\image-20220702155125505.png)
+![image-20220702155125505](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220702155125505.png)
 
 这里先了解了一些pom.xml的语法规则
 
-![image-20220702132857005](D:\MyCtf\img\image-20220702132857005.png)
+![image-20220702132857005](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220702132857005.png)
 
 https://blog.csdn.net/qq_41570658/article/details/120646393
 
-![image-20220702145820274](D:\MyCtf\img\image-20220702145820274.png)
+![image-20220702145820274](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220702145820274.png)
 
 propertiesw文件
 
@@ -169,13 +169,13 @@ management.endpoints.web.exposure.include=env, health,configprops
 
 # Server
 
-![image-20220702153801895](D:\MyCtf\img\image-20220702153801895.png)
+![image-20220702153801895](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220702153801895.png)
 
-![image-20220702153838830](D:\MyCtf\img\image-20220702153838830.png)
+![image-20220702153838830](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220702153838830.png)
 
 会发现添加了一个依赖项目
 
-![image-20220702153910207](D:\MyCtf\img\image-20220702153910207.png)
+![image-20220702153910207](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220702153910207.png)
 
 源码下载
 
@@ -183,7 +183,7 @@ management.endpoints.web.exposure.include=env, health,configprops
 mvn dependency:resolve -Dclassifier=sources
 ```
 
-![image-20220702160618821](D:\MyCtf\img\image-20220702160618821.png)
+![image-20220702160618821](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220702160618821.png)
 
 ## server.StartWebGoat
 
@@ -257,9 +257,9 @@ public class StartWebGoat {
 
 ## WebGoat
 
-![image-20220702200431223](D:\MyCtf\img\image-20220702200431223.png)
+![image-20220702200431223](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220702200431223.png)
 
-![image-20220702200359178](D:\MyCtf\img\image-20220702200359178.png)
+![image-20220702200359178](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220702200359178.png)
 
 ```java
 package com.wanan.webgoat.container;
@@ -308,11 +308,11 @@ public class WebGoat {
 
 ### WebGoatUser
 
-![image-20220702170759289](D:\MyCtf\img\image-20220702170759289.png)
+![image-20220702170759289](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220702170759289.png)
 
-![image-20220702170920741](D:\MyCtf\img\image-20220702170920741.png)
+![image-20220702170920741](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220702170920741.png)
 
-![image-20220702171034696](D:\MyCtf\img\image-20220702171034696.png)
+![image-20220702171034696](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220702171034696.png)
 
 ```java
 package com.wanan.webgoat.container.users;
@@ -557,9 +557,9 @@ public enum Category {
 
 ### WebSession
 
-![image-20220702170315844](D:\MyCtf\img\image-20220702170315844.png)
+![image-20220702170315844](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220702170315844.png)
 
-![image-20220702170401824](D:\MyCtf\img\image-20220702170401824.png)
+![image-20220702170401824](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220702170401824.png)
 
 ```java
 package com.wanan.webgoat.container.session;
@@ -649,7 +649,7 @@ public class UserSessionData {
 
 # webwolf
 
-![image-20220705180756835](D:\MyCtf\img\image-20220705180756835.png)
+![image-20220705180756835](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220705180756835.png)
 
 ## WebWolf
 
@@ -892,7 +892,7 @@ pom.xml
 </project>
 ```
 
-![image-20220702210331524](D:\MyCtf\img\image-20220702210331524.png)
+![image-20220702210331524](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220702210331524.png)
 
 # container
 
@@ -900,13 +900,13 @@ pom.xml
 
 这里我们初始时没有添加thymeleaf模板引擎,所以访问会爆500错误,因此我们需要添加上去
 
-![image-20220703162250649](D:\MyCtf\img\image-20220703162250649.png)
+![image-20220703162250649](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220703162250649.png)
 
-![image-20220703161328196](D:\MyCtf\img\image-20220703161328196.png)
+![image-20220703161328196](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220703161328196.png)
 
-![image-20220703162353426](D:\MyCtf\img\image-20220703162353426.png)
+![image-20220703162353426](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220703162353426.png)
 
-![image-20220704171709746](D:\MyCtf\img\image-20220704171709746.png)
+![image-20220704171709746](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220704171709746.png)
 
 ```java
 package com.wanan.webgoat.container;
@@ -1149,7 +1149,7 @@ public class LessonScanner {
 }
 ```
 
-![image-20220703144834368](D:\MyCtf\img\image-20220703144834368.png)
+![image-20220703144834368](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220703144834368.png)
 
 ## LessonTemplateResolver
 
@@ -1318,9 +1318,9 @@ public class AsciiDoctorTemplateResolver extends FileTemplateResolver {
 }
 ```
 
-![image-20220703205540754](D:\MyCtf\img\image-20220703205540754.png)
+![image-20220703205540754](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220703205540754.png)
 
-![image-20220703205741992](D:\MyCtf\img\image-20220703205741992.png)
+![image-20220703205741992](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220703205741992.png)
 
 ## asciidoc
 
@@ -1396,7 +1396,7 @@ public class WebWolfMacro extends InlineMacroProcessor {
 
 可以自己调试一下
 
-![image-20220704140556124](D:\MyCtf\img\image-20220704140556124.png)
+![image-20220704140556124](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220704140556124.png)
 
 ### EnvironmentExposure
 
@@ -1678,27 +1678,27 @@ public class LabelDebugger implements Serializable {
 
 报这个错
 
-![image-20220705104852655](D:\MyCtf\img\image-20220705104852655.png)
+![image-20220705104852655](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220705104852655.png)
 
 这里查这个错误 最后还是没找到具体那个依赖出现了问题,这里最终也是排除到了依赖上面出了问题,这里我们就直接使用webgoat的依赖了,其中有一个问题
 
-![image-20220705172611280](D:\MyCtf\img\image-20220705172611280.png)
+![image-20220705172611280](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220705172611280.png)
 
 使用时需要先删除这个日志管理
 
 启动之后这里做了渲染,是自带的吗
 
-![image-20220705172753229](D:\MyCtf\img\image-20220705172753229.png)
+![image-20220705172753229](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220705172753229.png)
 
 其实这是Spring Boot自带的安全自动配置
 
 在日志这里也有密码 用户名是user
 
-![image-20220705204826857](D:\MyCtf\img\image-20220705204826857.png)
+![image-20220705204826857](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220705204826857.png)
 
 测试一下是没有问题的
 
-![image-20220705205054461](D:\MyCtf\img\image-20220705205054461.png)
+![image-20220705205054461](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220705205054461.png)
 
 这里我们是因为还没有配置WebSecurityConfig所以才会这样
 
@@ -1849,7 +1849,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
 ### UserService
 
-![image-20220707161213187](D:\MyCtf\img\image-20220707161213187.png)
+![image-20220707161213187](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220707161213187.png)
 
 ```java
 package com.wanan.webgoat.container.users;
@@ -2356,9 +2356,9 @@ public class LessonConnectionInvocationHandler implements InvocationHandler {
 
 主要db下的目录要进行更改,并复制一个sql文件过来,否则无法正常启动
 
-![image-20220713132111818](D:\MyCtf\img\image-20220713132111818.png)
+![image-20220713132111818](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220713132111818.png)
 
-![image-20220713132146615](D:\MyCtf\img\image-20220713132146615.png)
+![image-20220713132146615](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220713132146615.png)
 
 # 更改数据库为mysql
 
@@ -2374,11 +2374,11 @@ public class LessonConnectionInvocationHandler implements InvocationHandler {
 </dependency>
 ```
 
-![image-20220713132847377](D:\MyCtf\img\image-20220713132847377.png)
+![image-20220713132847377](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220713132847377.png)
 
 创建数据库
 
-![image-20220713132712936](D:\MyCtf\img\image-20220713132712936.png)
+![image-20220713132712936](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220713132712936.png)
 
 修改properties文件
 
@@ -2391,7 +2391,7 @@ spring.datasource.driver-class-name=com.mysql.jdbc.Driver
 
 一看这三个肯定都是要更改的
 
-![image-20220713133100515](D:\MyCtf\img\image-20220713133100515.png)
+![image-20220713133100515](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220713133100515.png)
 
 ```properties
 spring.jpa.database-platform=org.hibernate.dialect.MySQL5Dialect
@@ -2401,53 +2401,53 @@ spring.datasource.password=root
 spring.datasource.driver-class-name=com.mysql.jdbc.Driver
 ```
 
-![image-20220713133236412](D:\MyCtf\img\image-20220713133236412.png)
+![image-20220713133236412](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220713133236412.png)
 
 这样启动会爆第一个错误 大概意思是sql语法错误,说明前后我们使用的数据库不同
 
-![image-20220713212446172](D:\MyCtf\img\image-20220713212446172.png)
+![image-20220713212446172](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220713212446172.png)
 
 我们先删除这个两个sql文件 备份哦
 
-![image-20220713212550955](D:\MyCtf\img\image-20220713212550955.png)
+![image-20220713212550955](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220713212550955.png)
 
 很明显这样启动也不会有好结果,这是因为我们数据库里并没有这些表
 
-![image-20220713212708628](D:\MyCtf\img\image-20220713212708628.png)
+![image-20220713212708628](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220713212708628.png)
 
 那么我们现在需要去手动添加上这些表
 
-![image-20220714144857063](D:\MyCtf\img\image-20220714144857063.png)
+![image-20220714144857063](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220714144857063.png)
 
-![image-20220713212900593](D:\MyCtf\img\image-20220713212900593.png)
+![image-20220713212900593](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220713212900593.png)
 
-![image-20220713212916444](D:\MyCtf\img\image-20220713212916444.png)
+![image-20220713212916444](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220713212916444.png)
 
-![image-20220713212943887](D:\MyCtf\img\image-20220713212943887.png)
+![image-20220713212943887](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220713212943887.png)
 
-![image-20220713213018476](D:\MyCtf\img\image-20220713213018476.png)
+![image-20220713213018476](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220713213018476.png)
 
-![image-20220713213038848](D:\MyCtf\img\image-20220713213038848.png)
+![image-20220713213038848](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220713213038848.png)
 
-![image-20220713213258184](D:\MyCtf\img\image-20220713213258184.png)
+![image-20220713213258184](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220713213258184.png)
 
-![image-20220713213316115](D:\MyCtf\img\image-20220713213316115.png)
+![image-20220713213316115](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220713213316115.png)
 
-![image-20220713213326142](D:\MyCtf\img\image-20220713213326142.png)
+![image-20220713213326142](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220713213326142.png)
 
-![image-20220713213348775](D:\MyCtf\img\image-20220713213348775.png)
+![image-20220713213348775](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220713213348775.png)
 
 有关联关系 你不会不会执行吧?
 
-![image-20220713213506799](D:\MyCtf\img\image-20220713213506799.png)
+![image-20220713213506799](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220713213506799.png)
 
 发现注册的时候报错了 
 
-![image-20220713222315600](D:\MyCtf\img\image-20220713222315600.png)
+![image-20220713222315600](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220713222315600.png)
 
 但是用户注册上了
 
-![image-20220713222347793](D:\MyCtf\img\image-20220713222347793.png)
+![image-20220713222347793](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220713222347793.png)
 
 # server
 
@@ -2496,9 +2496,9 @@ public class StartupMessage {
 }
 ```
 
-![image-20220714162530862](D:\MyCtf\img\image-20220714162530862.png)
+![image-20220714162530862](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220714162530862.png)
 
-![image-20220714163628605](D:\MyCtf\img\image-20220714163628605.png)
+![image-20220714163628605](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220714163628605.png)
 
 # container
 
@@ -3720,7 +3720,7 @@ public interface MailboxRepository extends JpaRepository<Email,String > {
 
 这里进行了修改,不然会造成jwt功能的无法正常使用.注意这里与原版的差异
 
-![image-20220822202924467](D:\MyCtf\img\image-20220822202924467.png)
+![image-20220822202924467](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220822202924467.png)
 
 ```java
 package org.owasp.webgoat.webwolf.jwt;
@@ -3920,11 +3920,11 @@ public class JWTToken {
 
 webwolf静态资源 了解一下 thymeleaf 语法
 
-![image-20220723084922401](D:\MyCtf\img\image-20220723084922401.png)
+![image-20220723084922401](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220723084922401.png)
 
 注意这里的静态资源包里面的properties文件其实是html文件中会取出来的变量
 
-![image-20220723093406862](D:\MyCtf\img\image-20220723093406862.png)
+![image-20220723093406862](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220723093406862.png)
 
 # container
 
@@ -4676,77 +4676,77 @@ public class WebGoatIntroduction extends Lesson {
 
 这里的错误就是我们打开之后它没有显示我们的adoc文件的内容
 
-![](D:\MyCtf\img\image-20220822162820454.png)
+![](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220822162820454.png)
 
-![image-20220822162915462](D:\MyCtf\img\image-20220822162915462.png)
+![image-20220822162915462](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220822162915462.png)
 
 首先我们需要去查看有无异常信息的抛出
 
 这里给了一个空指针异常
 
-![image-20220822163116038](D:\MyCtf\img\image-20220822163116038.png)
+![image-20220822163116038](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220822163116038.png)
 
 我们打个断点去查看哪里出现了问题
 
-![image-20220822163211392](D:\MyCtf\img\image-20220822163211392.png)
+![image-20220822163211392](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220822163211392.png)
 
 很明显就是这里的resoucre的名字出现了问题 那么我首先去寻找了一下在哪里有调用了这里computeTemplateResource方法,因为这里很明显传参就出现了问题 其次这里也可以简单的看出来肯定是多了一个/或者少了一个/导致截取出现了问题 最终路径拼接不起来
 
-![image-20220822163301810](D:\MyCtf\img\image-20220822163301810.png)
+![image-20220822163301810](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220822163301810.png)
 
-![image-20220822163252038](D:\MyCtf\img\image-20220822163252038.png)
+![image-20220822163252038](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220822163252038.png)
 
 就这么几个,我们看一下其实都不是我们自己去调用的,而是thymeleaf去给我们调用的
 
-![image-20220822163605299](D:\MyCtf\img\image-20220822163605299.png)
+![image-20220822163605299](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220822163605299.png)
 
 那么我们现在有两种思路第一种 我们根据这错误可能的形成原因去搜索可能存在错误的代码 这里肯定是lessons + ...去进行拼接.因此我们直接去搜索lessons 在根据连接操作找到了这行代码
 
-![image-20220822164616384](D:\MyCtf\img\image-20220822164616384.png)
+![image-20220822164616384](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220822164616384.png)
 
 这里也是与先前推测的连接略有出入,但是这里也是进行截断操作
 
 很明显这里缺少了一个. 导致在替换的时候出现了问题
 
-![image-20220822165450004](D:\MyCtf\img\image-20220822165450004.png)
+![image-20220822165450004](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220822165450004.png)
 
-![image-20220822165330017](D:\MyCtf\img\image-20220822165330017.png)
+![image-20220822165330017](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220822165330017.png)
 
 第二种方式 根据我们现在的代码是针对lessons的,因此我们之间找到container 下面的lessons去翻找代码.
 
 成功解决一项错误
 
-![image-20220822181047833](D:\MyCtf\img\image-20220822181047833.png)
+![image-20220822181047833](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220822181047833.png)
 
 ### 解析
 
 这里的Category其实是一个枚举类型因此这里其实返回的是关于本关卡的介绍 也就是这个是同一类型的关卡
 
-![image-20220823220049876](D:\MyCtf\img\image-20220823220049876.png)
+![image-20220823220049876](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220823220049876.png)
 
 进行两次查找去看看谁调用了这个方法
 
-![image-20220823220128471](D:\MyCtf\img\image-20220823220128471.png)
+![image-20220823220128471](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220823220128471.png)
 
-![image-20220823220201729](D:\MyCtf\img\image-20220823220201729.png)
+![image-20220823220201729](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220823220201729.png)
 
 这里找到了Cource方法,在这里很明显吗这个类就是一个统计关卡的类
 
-![image-20220823221755693](D:\MyCtf\img\image-20220823221755693.png)
+![image-20220823221755693](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220823221755693.png)
 
 LessonMenuService这里很容易理解这里的这个就是在左边栏进行关卡的展示的
 
-![image-20220823222538587](D:\MyCtf\img\image-20220823222538587.png)
+![image-20220823222538587](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220823222538587.png)
 
 我们接下来去看看LessonMenuItem
 
-![image-20220823224951738](D:\MyCtf\img\image-20220823224951738.png)
+![image-20220823224951738](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220823224951738.png)
 
 这里的getTitle()其实是配置文件中的这个
 
-![image-20220824184332114](D:\MyCtf\img\image-20220824184332114.png)
+![image-20220824184332114](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220824184332114.png)
 
-![image-20220824184532463](D:\MyCtf\img\image-20220824184532463.png)
+![image-20220824184532463](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220824184532463.png)
 
 ## webwolf_introduction
 
@@ -4775,45 +4775,45 @@ public class WebWolfIntroduction extends Lesson {
 
 顺手处理另一个问题
 
-![image-20220822210017920](D:\MyCtf\img\image-20220822210017920.png)
+![image-20220822210017920](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220822210017920.png)
 
 这是原版的链接,点击后会爆404错误,这里我们首先想到的肯定是这个路径没有对应进去我们的系统,那么这里我们首先进行全局搜索
 
-![image-20220822210043380](D:\MyCtf\img\image-20220822210043380.png)
+![image-20220822210043380](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220822210043380.png)
 
-![image-20220822210149301](D:\MyCtf\img\image-20220822210149301.png)
+![image-20220822210149301](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220822210149301.png)
 
 这里首先发现并没有这个路径,那么接下来由于WebWolf是我们添加的默认前缀,那么我们只需要去搜索后面的/home就好
 
-![image-20220822210327510](D:\MyCtf\img\image-20220822210327510.png)
+![image-20220822210327510](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220822210327510.png)
 
 这里除去上面的dockerfile的home,那么我们首先看到的就是这里的addViewController(),这里匹配的路径是/home,那么我们就有两个思路去修复,一是去更改html代码,使之进行匹配,第二就是更改这里在前面添加上/WebWolf,这里我们进行添加并重启进行尝试
 
-![image-20220822210604697](D:\MyCtf\img\image-20220822210604697.png)
+![image-20220822210604697](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220822210604697.png)
 
 成功跳转 但是这里出现了一个重要的问题 当我们直接从这里去打开 这里跳转的是/home 两种情况出现差别主要是处理的逻辑不同
 
-![image-20220823185716907](D:\MyCtf\img\image-20220823185716907.png)
+![image-20220823185716907](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220823185716907.png)
 
-![image-20220823185649325](D:\MyCtf\img\image-20220823185649325.png)
+![image-20220823185649325](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220823185649325.png)
 
 我们先看第一种的操作
 
-![image-20220823190012198](D:\MyCtf\img\image-20220823190012198.png)
+![image-20220823190012198](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220823190012198.png)
 
-![image-20220823190046301](D:\MyCtf\img\image-20220823190046301.png)
+![image-20220823190046301](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220823190046301.png)
 
 可以清楚的看到这里其实是直接通过链接进行访问的webwolf
 
-![image-20220823190130574](D:\MyCtf\img\image-20220823190130574.png)
+![image-20220823190130574](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220823190130574.png)
 
 而第二种其实是通过重定向跳转的
 
-![image-20220823185925351](D:\MyCtf\img\image-20220823185925351.png)
+![image-20220823185925351](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220823185925351.png)
 
 稍做修改 就可以成功跳转了
 
-![image-20220823192905208](D:\MyCtf\img\image-20220823192905208.png)
+![image-20220823192905208](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220823192905208.png)
 
 ### MailAssignment
 
@@ -4896,39 +4896,39 @@ public class MailAssignment extends AssignmentEndpoint {
 
 ```
 
-![image-20220824191613764](D:\MyCtf\img\image-20220824191613764.png)
+![image-20220824191613764](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220824191613764.png)
 
-![image-20220824201107883](D:\MyCtf\img\image-20220824201107883.png)
+![image-20220824201107883](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220824201107883.png)
 
-![image-20220824202804678](D:\MyCtf\img\image-20220824202804678.png)
+![image-20220824202804678](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220824202804678.png)
 
 这里可以看到是自动装配的
 
-![image-20220824204453426](D:\MyCtf\img\image-20220824204453426.png)
+![image-20220824204453426](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220824204453426.png)
 
 这里也查找的Bean容器可见下面仅仅是设置了一下基础信息 我们进去pluginMessages()构造方法看看先
 
-![image-20220824204703643](D:\MyCtf\img\image-20220824204703643.png)
+![image-20220824204703643](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220824204703643.png)
 
 这里也是比较简单的进行了基础值的赋值操作 我们先来看看这个Messages
 
-![image-20220824204828368](D:\MyCtf\img\image-20220824204828368.png)
+![image-20220824204828368](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220824204828368.png)
 
 可以看到这里的setBasename
 
-![image-20220824210408565](D:\MyCtf\img\image-20220824210408565.png)
+![image-20220824210408565](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220824210408565.png)
 
 清楚看到可以读取这里的messages配置文件
 
-![image-20220824210505308](D:\MyCtf\img\image-20220824210505308.png)
+![image-20220824210505308](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220824210505308.png)
 
 我们接着去看refreshProperties
 
 这里可以看到我们自己并没有去调用这个refreshProperties() 说明这里也是框架给我们调用的 这里我们分析一下
 
-![image-20220824205225984](D:\MyCtf\img\image-20220824205225984.png)
+![image-20220824205225984](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220824205225984.png)
 
-![image-20220824213012109](D:\MyCtf\img\image-20220824213012109.png)
+![image-20220824213012109](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220824213012109.png)
 
 ### Email
 
@@ -4954,9 +4954,9 @@ public class Email implements Serializable {
 
 ```
 
-![image-20220824191142252](D:\MyCtf\img\image-20220824191142252.png)
+![image-20220824191142252](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220824191142252.png)
 
-![image-20220824191212840](D:\MyCtf\img\image-20220824191212840.png)
+![image-20220824191212840](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220824191212840.png)
 
 简单易懂
 
@@ -4964,9 +4964,9 @@ public class Email implements Serializable {
 
 但是这里发送邮箱会报错
 
-![image-20220822215626523](D:\MyCtf\img\image-20220822215626523.png)
+![image-20220822215626523](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220822215626523.png)
 
-![](D:\MyCtf\img\image-20220822215626523.png)
+![](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220822215626523.png)
 
 将id自增策略更改如下
 
@@ -4974,97 +4974,97 @@ public class Email implements Serializable {
 @GeneratedValue(strategy =  GenerationType.IDENTITY)
 ```
 
-![image-20220822215551416](D:\MyCtf\img\image-20220822215551416.png)
+![image-20220822215551416](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220822215551416.png)
 
 这里更改完成之后遇到了一个无法解决的报错 说表并不存在 但是我翻遍了也没找到这个表在哪建的 因此我觉得换回原先的hsqldb数据库,但是这个数据库存在一个极大的弊端就是他的连接只能存在一个也就是如果项目启动起来的时候,就无法通过
 
-![image-20220823123531389](D:\MyCtf\img\image-20220823123531389.png)
+![image-20220823123531389](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220823123531389.png)
 
 ### 更换为hsqldb并进行连接查看
 
 首先我们换回配置文件
 
-![image-20220823124025849](D:\MyCtf\img\image-20220823124025849.png)
+![image-20220823124025849](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220823124025849.png)
 
-![image-20220823124210014](D:\MyCtf\img\image-20220823124210014.png)
+![image-20220823124210014](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220823124210014.png)
 
 这里成功启动起来
 
-![image-20220823124233038](D:\MyCtf\img\image-20220823124233038.png)
+![image-20220823124233038](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220823124233038.png)
 
 我们尝试去连接 
 
 首先这里存在几个值路径信息 url 数据库 用户 和密码 很明显这里的路径信息和数据库肯定是用来拼接最后的url的,首先我们尝试获取一下这里的值
 
-![image-20220823124328862](D:\MyCtf\img\image-20220823124328862.png)
+![image-20220823124328862](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220823124328862.png)
 
 一种比较简单的方式就是去查看我们项目启动后输出的日志信息
 
-![image-20220823124454018](D:\MyCtf\img\image-20220823124454018.png)
+![image-20220823124454018](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220823124454018.png)
 
 第二种方式 这里我们可以去自己去寻找具体路径是如何进行拼接的然后自己去查看位置
 
-![image-20220823124542653](D:\MyCtf\img\image-20220823124542653.png)
+![image-20220823124542653](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220823124542653.png)
 
 第三种方式我们尝试去输出一下日志信息
 
-![image-20220823124943809](D:\MyCtf\img\image-20220823124943809.png)
+![image-20220823124943809](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220823124943809.png)
 
 下一个问题我们如何去寻找用户名密码 首先我尝试了无密码的认证方式,发现并未通过
 
-![image-20220823125109247](D:\MyCtf\img\image-20220823125109247.png)
+![image-20220823125109247](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220823125109247.png)
 
 接下来我开始翻看这些文件 在这里发现了两个特殊的参数 前面这个SA一看就是用户名 后面的一看就是一个MD5值
 
-![image-20220823125145717](D:\MyCtf\img\image-20220823125145717.png)
+![image-20220823125145717](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220823125145717.png)
 
 发现是空密码
 
-![image-20220823125245662](D:\MyCtf\img\image-20220823125245662.png)
+![image-20220823125245662](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220823125245662.png)
 
 但是第一次其实并没有连接成功主要原因其实就是我的项目已经启动了,因此占用着这个进程,导致我的连接失败了
 
-![image-20220823125438715](D:\MyCtf\img\image-20220823125438715.png)
+![image-20220823125438715](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220823125438715.png)
 
 停止项目之后就连接成功了
 
-![image-20220823125547412](D:\MyCtf\img\image-20220823125547412.png)
+![image-20220823125547412](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220823125547412.png)
 
 其次这里需要在架构这里添加上所有的数据库
 
-![image-20220823125800211](D:\MyCtf\img\image-20220823125800211.png)
+![image-20220823125800211](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220823125800211.png)
 
 这里我们如果想要去更改用户名和密码的话,相信你也能想到了
 
 更改这个文件并更改配置文件即可
 
-![image-20220823125647530](D:\MyCtf\img\image-20220823125647530.png)
+![image-20220823125647530](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220823125647530.png)
 
-![image-20220823130027522](D:\MyCtf\img\image-20220823130027522.png)
+![image-20220823130027522](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220823130027522.png)
 
 现在便成功的连接上了
 
-![image-20220823125824892](D:\MyCtf\img\image-20220823125824892.png)
+![image-20220823125824892](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220823125824892.png)
 
 当需要启动项目时点击停用即可 不知道有没有方式可以去实现同时连接
 
-![image-20220823125901966](D:\MyCtf\img\image-20220823125901966.png)
+![image-20220823125901966](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220823125901966.png)
 
 这里需要先对数据进行初始化
 
-![image-20220823181703373](D:\MyCtf\img\image-20220823181703373.png)
+![image-20220823181703373](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220823181703373.png)
 
 测试下邮箱功能 注意这里的@前面需要是一个你注册的用户名
 
-![image-20220823210827974](D:\MyCtf\img\image-20220823210827974.png)
+![image-20220823210827974](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220823210827974.png)
 
 去webwolf可以查看到
 
-![image-20220823210956649](D:\MyCtf\img\image-20220823210956649.png)
+![image-20220823210956649](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220823210956649.png)
 
 这里根据这个unique也可以查看到成功完成了这项挑战
 
-![image-20220823211013116](D:\MyCtf\img\image-20220823211013116.png)
+![image-20220823211013116](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220823211013116.png)
 
 ### LandingAssignment
 
@@ -5118,73 +5118,73 @@ public class LandingAssignment extends AssignmentEndpoint {
 
 ```
 
-![image-20220824222750024](D:\MyCtf\img\image-20220824222750024.png)
+![image-20220824222750024](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220824222750024.png)
 
 可以看到这里是一个form表单 而且当点击save之后会向webwolfurl去发送请求
 
-![image-20220824222816406](D:\MyCtf\img\image-20220824222816406.png)
+![image-20220824222816406](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220824222816406.png)
 
-![image-20220824223002352](D:\MyCtf\img\image-20220824223002352.png)
+![image-20220824223002352](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220824223002352.png)
 
 到这里我们先放一下去看一下webwolf 的landing是怎么配置的
 
 这里也比较简单能够理解就是当请求/landing/**路径下时会打印一个日志 这里我们暂时看不出问题来 所以我们先去看requests
 
-![image-20220825095155593](D:\MyCtf\img\image-20220825095155593.png)
+![image-20220825095155593](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220825095155593.png)
 
-![image-20220825095148670](D:\MyCtf\img\image-20220825095148670.png)
+![image-20220825095148670](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220825095148670.png)
 
-![image-20220825095920808](D:\MyCtf\img\image-20220825095920808.png)
+![image-20220825095920808](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220825095920808.png)
 
 这里很容易找到其实这里的初始化操作是在@Bean执行的而且是交给spring容器管理的
 
-![image-20220825095907977](D:\MyCtf\img\image-20220825095907977.png)
+![image-20220825095907977](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220825095907977.png)
 
-![image-20220825100305798](D:\MyCtf\img\image-20220825100305798.png)
+![image-20220825100305798](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220825100305798.png)
 
 现在我们已经知道了我们的http请求其实是存放在traces中的,那么是在什么时候添加进去的呢?
 
 可以看到其实是spring自动调用的
 
-![image-20220825110424447](D:\MyCtf\img\image-20220825110424447.png)
+![image-20220825110424447](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220825110424447.png)
 
 这里我进行了简单的尝试,发现在进入return语句之后 在log.trace执行之前调用了add方法.这里不太能理解为什么.主要是一个http请求应该包括响应 那么按理应该是在所有的return结束之后在调用才对啊.
 
-![image-20220825110800731](D:\MyCtf\img\image-20220825110800731.png)
+![image-20220825110800731](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220825110800731.png)
 
 我们去看一下request
 
  这里可能有点难以理解 刚开始我不知道这个t是如何去赋值的 其实这里简单的理解 就是首先我们traceRepository.findAllTraces() 这个获取的是一个list 而后面的stream()其实就代表着一个一个的去读取 接着呢 在每一次读取之中进行了过滤filter 操作 ,而由于每一次读取的时候是读取到了一个HttpTrace对象,那么这个参数t自然就是读取到的这个HttpTrace对象了
 
-![image-20220825113223673](D:\MyCtf\img\image-20220825113223673.png)
+![image-20220825113223673](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220825113223673.png)
 
 下面这里也很好理解就是转换成json格式的数据
 
-![image-20220825144305039](D:\MyCtf\img\image-20220825144305039.png)
+![image-20220825144305039](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220825144305039.png)
 
 将得到的值进行存入
 
-![image-20220825145014574](D:\MyCtf\img\image-20220825145014574.png)
+![image-20220825145014574](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220825145014574.png)
 
 现在可以完全理解这个系统了吗
 
 这里的更改密码其实是攻击者伪造的更改密码链接 但是其实这里点击save之后会跳转 实战时是需要进行重新修改的
 
-![image-20220825145300839](D:\MyCtf\img\image-20220825145300839.png)
+![image-20220825145300839](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220825145300839.png)
 
 当我们更改之后就会将更改的密码发送到
 
-![image-20220825145344751](D:\MyCtf\img\image-20220825145344751.png)
+![image-20220825145344751](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220825145344751.png)
 
-![image-20220825150618105](D:\MyCtf\img\image-20220825150618105.png)
+![image-20220825150618105](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220825150618105.png)
 
 由于webwolf会存储landing路径下的请求因此这里会进行展示
 
-![image-20220825150857974](D:\MyCtf\img\image-20220825150857974.png)
+![image-20220825150857974](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220825150857974.png)
 
 提交即可过关
 
-![image-20220825150925418](D:\MyCtf\img\image-20220825150925418.png)
+![image-20220825150925418](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220825150925418.png)
 
 ## http_basics
 
@@ -5214,7 +5214,7 @@ public class HttpBasics  extends Lesson {
 
 介绍
 
-![image-20220825153410260](D:\MyCtf\img\image-20220825153410260.png)
+![image-20220825153410260](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220825153410260.png)
 
 ### HttpBasicsLesson
 
@@ -5252,61 +5252,61 @@ public class HttpBasicsLesson extends AssignmentEndpoint {
 
 这里的show hints其实是注解 我们需要去看看
 
-![image-20220825155519406](D:\MyCtf\img\image-20220825155519406.png)
+![image-20220825155519406](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220825155519406.png)
 
 这里存在我们对AssignmentHints接口的定义 其中有一个value参数
 
-![image-20220825155628662](D:\MyCtf\img\image-20220825155628662.png)
+![image-20220825155628662](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220825155628662.png)
 
 在这里我们找到了用法
 
-![image-20220825155726264](D:\MyCtf\img\image-20220825155726264.png)
+![image-20220825155726264](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220825155726264.png)
 
 一步步往上查找
 
-![image-20220825160517445](D:\MyCtf\img\image-20220825160517445.png)
+![image-20220825160517445](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220825160517445.png)
 
-![image-20220825160538706](D:\MyCtf\img\image-20220825160538706.png)
+![image-20220825160538706](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220825160538706.png)
 
 这里可见对course进行了bean的注入
 
-![image-20220825160729294](D:\MyCtf\img\image-20220825160729294.png)
+![image-20220825160729294](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220825160729294.png)
 
 感觉这里其实是无法调用到的 找遍也没有发现那个请求发送到这里 
 
-![image-20220825161854634](D:\MyCtf\img\image-20220825161854634.png)
+![image-20220825161854634](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220825161854634.png)
 
 其次在StartLesson类的构造方法我并未找到有用户调用 那么原因是不是由于@Controller导致该类有springboot帮助我们去调用了
 
 接着我们去看bean对象的赋值
 
-![image-20220825164550766](D:\MyCtf\img\image-20220825164550766.png)
+![image-20220825164550766](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220825164550766.png)
 
-![image-20220825164632442](D:\MyCtf\img\image-20220825164632442.png)
+![image-20220825164632442](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220825164632442.png)
 
 现在我们去看new Assignment
 
-![image-20220825164901828](D:\MyCtf\img\image-20220825164901828.png)
+![image-20220825164901828](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220825164901828.png)
 
 现在我们已经理解了hints存储在了哪里,接下来我们去寻找哪里进行了调用获取hints
 
-![image-20220825170206161](D:\MyCtf\img\image-20220825170206161.png)
+![image-20220825170206161](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220825170206161.png)
 
-![image-20220825170219828](D:\MyCtf\img\image-20220825170219828.png)
+![image-20220825170219828](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220825170219828.png)
 
-![image-20220825170449078](D:\MyCtf\img\image-20220825170449078.png)
+![image-20220825170449078](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220825170449078.png)
 
-![image-20220825171015851](D:\MyCtf\img\image-20220825171015851.png)
+![image-20220825171015851](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220825171015851.png)
 
 一个hint 一个路径
 
-![image-20220825171032480](D:\MyCtf\img\image-20220825171032480.png)
+![image-20220825171032480](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220825171032480.png)
 
 聪明的你一定发现了 这里的hint并不是点击请求的而是一次性请求 存储在前端的
 
 那么这关我们只要不输入空字符即可过关
 
-![image-20220825171630319](D:\MyCtf\img\image-20220825171630319.png)
+![image-20220825171630319](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220825171630319.png)
 
 ### HttpBasicsQuiz
 
@@ -5348,19 +5348,19 @@ public class HttpBasicsQuiz extends AssignmentEndpoint {
 
 这里AssignmentPath 并没有去使用 推测可能是webgoat没有写完
 
-![image-20220825180659450](D:\MyCtf\img\image-20220825180659450.png)
+![image-20220825180659450](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220825180659450.png)
 
 这里可能需要去抓包 先去看一下请求方式和 magic number
 
-![image-20220825180917463](D:\MyCtf\img\image-20220825180917463.png)
+![image-20220825180917463](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220825180917463.png)
 
-![image-20220825180911483](D:\MyCtf\img\image-20220825180911483.png)
+![image-20220825180911483](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220825180911483.png)
 
 或者直接观察前端代码
 
-![image-20220825181029995](D:\MyCtf\img\image-20220825181029995.png)
+![image-20220825181029995](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220825181029995.png)
 
-![image-20220825181103415](D:\MyCtf\img\image-20220825181103415.png)
+![image-20220825181103415](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220825181103415.png)
 
 ## http_proxies
 
@@ -5424,11 +5424,11 @@ public class HttpBasicsInterceptRequest extends AssignmentEndpoint {
 
 完成题目 主要是教会你抓包并修改请求包
 
-![image-20220825185451367](D:\MyCtf\img\image-20220825185451367.png)
+![image-20220825185451367](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220825185451367.png)
 
-![image-20220825190444738](D:\MyCtf\img\image-20220825190444738.png)
+![image-20220825190444738](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220825190444738.png)
 
-![image-20220825190909702](D:\MyCtf\img\image-20220825190909702.png)
+![image-20220825190909702](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220825190909702.png)
 
 ## chrome_dev_tools
 
@@ -5488,29 +5488,29 @@ public class NetworkDummy extends AssignmentEndpoint {
 }
 ```
 
-![image-20220825202707349](D:\MyCtf\img\image-20220825202707349.png)
+![image-20220825202707349](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220825202707349.png)
 
-![image-20220825204113787](D:\MyCtf\img\image-20220825204113787.png)
+![image-20220825204113787](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220825204113787.png)
 
-![image-20220825204311496](D:\MyCtf\img\image-20220825204311496.png)
+![image-20220825204311496](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220825204311496.png)
 
 那么暂时情况下我们没有找到给userSessionData.Value("randValue")赋值的地方 这里我们首先去查找一下哪里调用了这个setValue 
 
-![image-20220825212624529](D:\MyCtf\img\image-20220825212624529.png)
+![image-20220825212624529](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220825212624529.png)
 
 很明显这里其实暂时仅仅有一个地方调用了 那么现在读下来其实我们这道题目是无法去做的 因此我选择去看前端的题目要求
 
 可以简单的理解一下就是像让我们去通过console去调用这个js方法 这里找了半天才找到这个js文件
 
-![image-20220825210117176](D:\MyCtf\img\image-20220825210117176.png)
+![image-20220825210117176](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220825210117176.png)
 
 尝试去调用的时候也是很明显的出现了问题那么我们现在需要去做的是看看哪里有关于这个路径的信息
 
-![image-20220825212829615](D:\MyCtf\img\image-20220825212829615.png)
+![image-20220825212829615](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220825212829615.png)
 
 这里在xss关卡其实有调用
 
-![image-20220825212931962](D:\MyCtf\img\image-20220825212931962.png)
+![image-20220825212931962](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220825212931962.png)
 
 因此这里选择去先写这个文件
 
@@ -5551,13 +5551,13 @@ public class DOMCrossSiteScripting extends AssignmentEndpoint {
 }
 ```
 
-![image-20220825221701018](D:\MyCtf\img\image-20220825221701018.png)
+![image-20220825221701018](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220825221701018.png)
 
 由于在上面进行了对比successMessage.equals(answer)
 
 所以这里的phoneHome需要我们提交进去就可以过关
 
-![image-20220825221928248](D:\MyCtf\img\image-20220825221928248.png)
+![image-20220825221928248](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220825221928248.png)
 
 这里过关之后我会删除xss/DOMCrossSiteScripting.java
 
@@ -5598,19 +5598,19 @@ public class NetworkLesson extends AssignmentEndpoint {
 
 ```
 
-![image-20220825230036188](D:\MyCtf\img\image-20220825230036188.png)
+![image-20220825230036188](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220825230036188.png)
 
 根据network去查看一下向 ChromeDevTools/network 发送的payload
 
-![image-20220825230129245](D:\MyCtf\img\image-20220825230129245.png)
+![image-20220825230129245](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220825230129245.png)
 
 输入即可过关
 
-![image-20220825230236518](D:\MyCtf\img\image-20220825230236518.png)
+![image-20220825230236518](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220825230236518.png)
 
 当然也可通过check抓取值
 
-![image-20220825230325870](D:\MyCtf\img\image-20220825230325870.png)
+![image-20220825230325870](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220825230325870.png)
 
 ## cia
 
@@ -5688,23 +5688,23 @@ public class CIAQuiz extends AssignmentEndpoint {
 
 这里也比较简单 看下发送的 请求 可以发现当提交了答案之后会立马去get请求一次答案
 
-![image-20220827122239088](D:\MyCtf\img\image-20220827122239088.png)
+![image-20220827122239088](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220827122239088.png)
 
 第一种过关方法就是一个个试去找正确答案
 
-![image-20220827122334897](D:\MyCtf\img\image-20220827122334897.png)
+![image-20220827122334897](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220827122334897.png)
 
 另一种方式就是根据检查答案的方式 既然答案检查的是是否包含这个字段,那么我们只要把字段全部包含就可了
 
-![image-20220827122624570](D:\MyCtf\img\image-20220827122624570.png)
+![image-20220827122624570](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220827122624570.png)
 
 但是呢实际这样写并不会通过,我们来看看可以发现这里的请求参数默认以,进行了分割,导致并没有取到值
 
-![image-20220827122843143](D:\MyCtf\img\image-20220827122843143.png)
+![image-20220827122843143](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220827122843143.png)
 
 这样写即可完成
 
-![image-20220827123050738](D:\MyCtf\img\image-20220827123050738.png)
+![image-20220827123050738](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220827123050738.png)
 
 ## lesson_template
 
@@ -5787,7 +5787,7 @@ public class SampleAttack extends AssignmentEndpoint {
 
 这一关其实就是教我们如何自己去出题目的,那么其实这里就是样例
 
-![image-20220827133344581](D:\MyCtf\img\image-20220827133344581.png)
+![image-20220827133344581](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220827133344581.png)
 
 简单通过阅读代码发现只要第一个参数与密钥相同就可过关
 
@@ -6036,115 +6036,115 @@ public interface AuthenticationProvider <T extends Principal >{
 
 简单分析一下
 
-![image-20220827203154209](D:\MyCtf\img\image-20220827203154209.png)
+![image-20220827203154209](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220827203154209.png)
 
 当第一次请求的时候cookie其实是空的
 
-![image-20220827203533200](D:\MyCtf\img\image-20220827203533200.png)
+![image-20220827203533200](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220827203533200.png)
 
 先创建一个username 和 passwd 的authentication
 
-![image-20220827203719088](D:\MyCtf\img\image-20220827203719088.png)
+![image-20220827203719088](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220827203719088.png)
 
 这里两个false  直接跳到下一个if里面 
 
-![image-20220828133534770](D:\MyCtf\img\image-20220828133534770.png)
+![image-20220828133534770](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220828133534770.png)
 
 调用的 GENERATE_SESSION_ID 去获取一个id 
 
-![image-20220828133632268](D:\MyCtf\img\image-20220828133632268.png)
+![image-20220828133632268](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220828133632268.png)
 
 这里的id 首先是一个静态的值 紧接着去自加一 与 当前时间戳进行拼接
 
-![image-20220828134048342](D:\MyCtf\img\image-20220828134048342.png)
+![image-20220828134048342](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220828134048342.png)
 
 这里需要注意的是 这里的 authentication 是这个 @23160 还有这个id 最后是657
 
 紧接着跳到了authorizedUserAutoLogin()中去
 
-![image-20220827203818440](D:\MyCtf\img\image-20220827203818440.png)
+![image-20220827203818440](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220827203818440.png)
 
 仔细看着一行 其实 这里是有一定概率才能进到这个if中的,原因就是这里的 数字是随机生成的 进入if的概率呢就是 0.25
 
 因此我们在if里面下个断点然后不断重复请求进入if看看先
 
-![image-20220828134226576](D:\MyCtf\img\image-20220828134226576.png)
+![image-20220828134226576](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220828134226576.png)
 
 进来以后发现创建了一个 使用的是 AUTHENTICATION_SUPPLIER.get()创建了一个新的authentication 
 
-![image-20220828133124860](D:\MyCtf\img\image-20220828133124860.png)
+![image-20220828133124860](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220828133124860.png)
 
 因此就调到了这里面这里很明显示构建一个Authentication 但是这里的 id 其实是调用的 GENERATE_SESSION_ID 首先这里进行了id的自加一 
 
-![image-20220828133255565](D:\MyCtf\img\image-20220828133255565.png)
+![image-20220828133255565](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220828133255565.png)
 
 这里的id其实是静态的 因此 先自加后拼接当前时间戳
 
-![image-20220828134226576](D:\MyCtf\img\image-20220828134226576.png)
+![image-20220828134226576](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220828134226576.png)
 
 仔细看这里的 @23164 与 id 最后是236 这里其实出现了不同 那是由于我们下了断点导致执行时间出现了较大差异 假设我们不下断点的话 这两个值应该是相同的 我们可以做个简单的测试 后面会讲到
 
 并将Authenticated赋值成了 true 
 
-![image-20220828134536803](D:\MyCtf\img\image-20220828134536803.png)
+![image-20220828134536803](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220828134536803.png)
 
 接着进行了addSession操作 将当前的 authentication.getId() 进行了存入
 
 但是这里还需要注意的是如果sessions 的数量大于50 就会移除
 
-![image-20220828134625719](D:\MyCtf\img\image-20220828134625719.png)
+![image-20220828134625719](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220828134625719.png)
 
 接着返回了
 
-![image-20220828134710287](D:\MyCtf\img\image-20220828134710287.png)
+![image-20220828134710287](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220828134710287.png)
 
 回来之后的authentication是我们第一次的 @23160
 
-![image-20220828102713506](D:\MyCtf\img\image-20220828102713506.png)
+![image-20220828102713506](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220828102713506.png)
 
 接着将这里的setcookie
 
-![image-20220828134809977](D:\MyCtf\img\image-20220828134809977.png)
+![image-20220828134809977](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220828134809977.png)
 
 可以发现当cookie是空的时候会给请求设置一个cookie
 
-![image-20220828102747572](D:\MyCtf\img\image-20220828102747572.png)
+![image-20220828102747572](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220828102747572.png)
 
 从这里我们也可以测试一下设置cookie的规律
 
 我们只在return 这里下一个断点 
 
-![image-20220828135240545](D:\MyCtf\img\image-20220828135240545.png)
+![image-20220828135240545](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220828135240545.png)
 
 不断请求到截断到为止 这里发现后缀是235
 
-![image-20220828135408612](D:\MyCtf\img\image-20220828135408612.png)
+![image-20220828135408612](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220828135408612.png)
 
-![image-20220828135442335](D:\MyCtf\img\image-20220828135442335.png)
+![image-20220828135442335](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220828135442335.png)
 
 放行之后发现这里的后面时间戳其实是相同的 而只有前面由于自加一出现了差异
 
 接着我们给cookie添加上去
 
-![image-20220827204845082](D:\MyCtf\img\image-20220827204845082.png)
+![image-20220827204845082](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220827204845082.png)
 
 这里由于sessions 中没有包含我们的cookie 因此两个都是false
 
-![image-20220827205205113](D:\MyCtf\img\image-20220827205205113.png)
+![image-20220827205205113](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220827205205113.png)
 
 这里当然也能进来 不过这次生成的cookie并不会返回到页面上面
 
-![image-20220828135916911](D:\MyCtf\img\image-20220828135916911.png)
+![image-20220828135916911](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220828135916911.png)
 
-![image-20220828140003139](D:\MyCtf\img\image-20220828140003139.png)
+![image-20220828140003139](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220828140003139.png)
 
-![image-20220828140028337](D:\MyCtf\img\image-20220828140028337.png)
+![image-20220828140028337](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220828140028337.png)
 
 到现在我们的思路就是先 使用 不带cookie的去请求获取得到的cookie 接着将得到的cookie 进行+1操作 因为实际存入到sessions中的其实是+过1的 接着使用这个cookie去请求
 
-![image-20220828140933908](D:\MyCtf\img\image-20220828140933908.png)
+![image-20220828140933908](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220828140933908.png)
 
-![image-20220828140941870](D:\MyCtf\img\image-20220828140941870.png)
+![image-20220828140941870](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220828140941870.png)
 
 ## idor
 
@@ -6233,15 +6233,15 @@ public class IDORLogin extends AssignmentEndpoint {
 
 先看下UserSessionData
 
-![image-20220828154959520](D:\MyCtf\img\image-20220828154959520.png)
+![image-20220828154959520](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220828154959520.png)
 
 这里也比较简单就是 一个map的简单功能
 
-![image-20220828155228978](D:\MyCtf\img\image-20220828155228978.png)
+![image-20220828155228978](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220828155228978.png)
 
 这里只要登录就可过关了
 
-![image-20220828155303545](D:\MyCtf\img\image-20220828155303545.png)
+![image-20220828155303545](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220828155303545.png)
 
 ### IDORDiffAttributes
 
@@ -6448,21 +6448,21 @@ public class UserProfile {
 
 ```
 
-![image-20220831180320323](D:\MyCtf\img\image-20220831180320323.png)
+![image-20220831180320323](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220831180320323.png)
 
 首先这里存在一个view profile 用于查看资料,但是这个资料的查看前提是需要在第二关登录才能查看的
 
 这里的UserProfile 就很像一个数据类 专门用来封装数据的
 
-![image-20220831181411408](D:\MyCtf\img\image-20220831181411408.png)
+![image-20220831181411408](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220831181411408.png)
 
-![image-20220831182021822](D:\MyCtf\img\image-20220831182021822.png)
+![image-20220831182021822](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220831182021822.png)
 
 那么这里以,分割填入userid和role就可以了
 
-![image-20220831182633882](D:\MyCtf\img\image-20220831182633882.png)
+![image-20220831182633882](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220831182633882.png)
 
-![image-20220831184322783](D:\MyCtf\img\image-20220831184322783.png)
+![image-20220831184322783](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220831184322783.png)
 
 ### IDORViewOwnProfileAltUrl
 
@@ -6516,19 +6516,19 @@ public class IDORViewOwnProfileAltUrl extends AssignmentEndpoint {
 }
 ```
 
-![image-20220831190232238](D:\MyCtf\img\image-20220831190232238.png)
+![image-20220831190232238](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220831190232238.png)
 
 这里就是像让我们访问个人资料的路径 也是需要先登录
 
-![image-20220831190318579](D:\MyCtf\img\image-20220831190318579.png)
+![image-20220831190318579](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220831190318579.png)
 
 获取路径 和 id
 
-![image-20220831190748849](D:\MyCtf\img\image-20220831190748849.png)
+![image-20220831190748849](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220831190748849.png)
 
 这里需要注意的是需要加上这个id
 
-![image-20220831190931522](D:\MyCtf\img\image-20220831190931522.png)
+![image-20220831190931522](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220831190931522.png)
 
 ### IDORViewOtherProfile
 
@@ -6581,23 +6581,23 @@ public class IDORViewOtherProfile extends AssignmentEndpoint {
 }
 ```
 
-![image-20220831201227028](D:\MyCtf\img\image-20220831201227028.png)
+![image-20220831201227028](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220831201227028.png)
 
 这里可以看见,这个userid其实是没有赋值的,那么这里呢我们就需要去登录这个 bill 这里的意思也是比较简单,那么假设我们不知道bill的id怎么取访问呢? 爆破id呗
 
-![image-20220831201436234](D:\MyCtf\img\image-20220831201436234.png)
+![image-20220831201436234](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220831201436234.png)
 
-![image-20220831201903110](D:\MyCtf\img\image-20220831201903110.png)
+![image-20220831201903110](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220831201903110.png)
 
 这里为了方便就直接减少点了 并且开了两个线程 不然一直访问500
 
-![image-20220831201854428](D:\MyCtf\img\image-20220831201854428.png)
+![image-20220831201854428](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220831201854428.png)
 
 ### IDOREditOtherProfiile
 
 注意这里的代码与原先的差异
 
-![image-20220901131309653](D:\MyCtf\img\image-20220901131309653.png)
+![image-20220901131309653](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220901131309653.png)
 
 这里的提示返回的是fail 但是调用的是succes 不知道是不是原文写错了
 
@@ -6684,25 +6684,25 @@ public class IDOREditOtherProfiile extends AssignmentEndpoint {
 
 这里既然提交的是一个json格式的UserProfile 那么我们需要 UserProfile 的json格式是什么样子的
 
-![image-20220831224719251](D:\MyCtf\img\image-20220831224719251.png)
+![image-20220831224719251](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220831224719251.png)
 
 这里还需要put请求
 
-![image-20220831224726850](D:\MyCtf\img\image-20220831224726850.png)
+![image-20220831224726850](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220831224726850.png)
 
-![image-20220831225511648](D:\MyCtf\img\image-20220831225511648.png)
+![image-20220831225511648](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220831225511648.png)
 
 总共有三个地方一是 id 二是 role 三是 color
 
-![image-20220831230855877](D:\MyCtf\img\image-20220831230855877.png)
+![image-20220831230855877](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220831230855877.png)
 
 但是这里还有一个black也可以过关
 
-![image-20220831231142555](D:\MyCtf\img\image-20220831231142555.png)
+![image-20220831231142555](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220831231142555.png)
 
 但是这里上面如果是null 的话下面就会爆空指针异常 不知道怎么过
 
-![187718176](D:\MyCtf\img\187718176-8102d348-9a44-4e32-9fb1-9e03cacc31e7.png)
+![187718176](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/187718176-8102d348-9a44-4e32-9fb1-9e03cacc31e7.png)
 
 ## missing_ac
 
@@ -6750,27 +6750,27 @@ public class MissingFunctionACHiddenMenus extends AssignmentEndpoint {
 
 简单翻译一下这一关就可以发现 其实是让我们去源码中寻找一下 隐藏的 路径信息 
 
-![image-20220901131356161](D:\MyCtf\img\image-20220901131356161.png)
+![image-20220901131356161](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220901131356161.png)
 
 这里其实不是特别的好找,首先我们先把所有的标签给展开先 先找到body这个标签
 
-![image-20220901130630692](D:\MyCtf\img\image-20220901130630692.png)
+![image-20220901130630692](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220901130630692.png)
 
-![image-20220901130700058](D:\MyCtf\img\image-20220901130700058.png)
+![image-20220901130700058](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220901130700058.png)
 
 接着根据工具去定位大致的位置
 
-![image-20220901130730816](D:\MyCtf\img\image-20220901130730816.png)
+![image-20220901130730816](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220901130730816.png)
 
 稍微往上一翻可以找到了 还有一个问题这里填那两个 ?
 
-![image-20220901131054794](D:\MyCtf\img\image-20220901131054794.png)
+![image-20220901131054794](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220901131054794.png)
 
  但是呢这里就存在一个问题 既然前端显示的是小写 但是后端判断的是大写 那么就会导致无法过关 这里我们对源码进行一下修改
 
-![image-20220901131706235](D:\MyCtf\img\image-20220901131706235.png)
+![image-20220901131706235](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220901131706235.png)
 
-![image-20220901131923443](D:\MyCtf\img\image-20220901131923443.png)
+![image-20220901131923443](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220901131923443.png)
 
 ### MissingFunctionACYourHash
 
@@ -6866,11 +6866,11 @@ public class MissingAccessControlUserRepository {
 
 这里看一眼 RowMapper的解释 首先这个接口是对 数据库中列的映射 其中需要实现下面的mapRow方法 
 
-![image-20220901142416684](D:\MyCtf\img\image-20220901142416684.png)
+![image-20220901142416684](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220901142416684.png)
 
 注意看这里其实是用 lamda表达式其中这里 new了一个接口并传入了User这个对象  这里传入的两个参数 其中第一个参数就是查询到的当前列的值 第二个参数代表着 当前是第几列
 
-![image-20220901142549715](D:\MyCtf\img\image-20220901142549715.png)
+![image-20220901142549715](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220901142549715.png)
 
 ### User
 
@@ -6892,7 +6892,7 @@ public class User {
 }
 ```
 
-![image-20220901200339904](D:\MyCtf\img\image-20220901200340102.png)
+![image-20220901200339904](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220901200340102.png)
 
 到这里其实还是没有办法去完成的 因为我们不知道用户的信息 还需要接着写
 
@@ -6994,11 +6994,11 @@ public class MissingFunctionACUsers {
 
 这里首先需要的是获取用户的hash值
 
-![image-20220901224615901](D:\MyCtf\img\image-20220901224615901.png)
+![image-20220901224615901](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220901224615901.png)
 
 可以注意到的是这里的路径是存在问题的,那就是这里的前缀
 
-![image-20220901224654510](D:\MyCtf\img\image-20220901224654510.png)
+![image-20220901224654510](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220901224654510.png)
 
 直接访问必报404
 
@@ -7008,11 +7008,11 @@ http://127.0.0.1:8080/WebGoat/access-control/users
 
 需要添加WebGoat
 
-![image-20220901224856920](D:\MyCtf\img\image-20220901224856920.png)
+![image-20220901224856920](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220901224856920.png)
 
 这里爆了一个异常 原因也很简单的 主要是由于这个接口作为一个遗漏接口 由于没有进行完善所以导致 这个list_users.html不存在
 
-![image-20220901225836073](D:\MyCtf\img\image-20220901225836073.png)
+![image-20220901225836073](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220901225836073.png)
 
 ```
 Content-Type: application/json
@@ -7020,13 +7020,13 @@ Content-Type: application/json
 
 这里添加上这个json请求头就可以处理这个请求了
 
-![image-20220901225940006](D:\MyCtf\img\image-20220901225940006.png)
+![image-20220901225940006](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220901225940006.png)
 
 原因是这里是可以接受 json格式的数据去 解析并将json格式的数据进行返回的
 
 那么我们之间提交Jerry的hash即可
 
-![image-20220902090152804](D:\MyCtf\img\image-20220902090152804.png)
+![image-20220902090152804](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220902090152804.png)
 
 ### MissingFunctionACYourHashAdmin
 
@@ -7072,31 +7072,31 @@ public class MissingFunctionACYourHashAdmin extends AssignmentEndpoint {
 
 也就是我们需要把Jerry更改为admin才可登录 
 
-![image-20220902091321449](D:\MyCtf\img\image-20220902091321449.png)
+![image-20220902091321449](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220902091321449.png)
 
 也就是这里的两个方法 一个获取用户并保存到数据库中去 另一个方法查看用户hash
 
 但是这里需要注意的是 这里的newUser 也就是一个User对象
 
-![image-20220902091703044](D:\MyCtf\img\image-20220902091703044.png)
+![image-20220902091703044](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220902091703044.png)
 
 注意观察参数
 
-![image-20220902094423466](D:\MyCtf\img\image-20220902094423466.png)
+![image-20220902094423466](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220902094423466.png)
 
-![image-20220902094410855](D:\MyCtf\img\image-20220902094410855.png)
+![image-20220902094410855](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220902094410855.png)
 
 这里我们总共添加了两个用户 一个是当前登录webgoat的用户 也就是123456
 
-![image-20220902094628695](D:\MyCtf\img\image-20220902094628695.png)
+![image-20220902094628695](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220902094628695.png)
 
 这里就把admin的hash也查出来了
 
-![image-20220902094709032](D:\MyCtf\img\image-20220902094709032.png)
+![image-20220902094709032](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220902094709032.png)
 
 这里为甚是两个用户也即是这里的原因
 
-![image-20220902094938519](D:\MyCtf\img\image-20220902094938519.png)
+![image-20220902094938519](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220902094938519.png)
 
 接着去提交它的hash 如果发现多个hash提交第一个即可,因为只对比第一个
 
@@ -7325,35 +7325,35 @@ public class EncDec {
 }
 ```
 
-![image-20220903103710214](D:\MyCtf\img\image-20220903103710214.png)
+![image-20220903103710214](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220903103710214.png)
 
 base64解码
 
-![image-20220903103940162](D:\MyCtf\img\image-20220903103940162.png)
+![image-20220903103940162](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220903103940162.png)
 
 16进制转字符
 
-![image-20220903103948675](D:\MyCtf\img\image-20220903103948675.png)
+![image-20220903103948675](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220903103948675.png)
 
 逆序输出
 
-![image-20220903104030709](D:\MyCtf\img\image-20220903104030709.png)
+![image-20220903104030709](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220903104030709.png)
 
-![image-20220903104149969](D:\MyCtf\img\image-20220903104149969.png)
+![image-20220903104149969](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220903104149969.png)
 
 可以简单发现前面是 用户名 后面是一个固定值
 
 加密cookie
 
-![image-20220903104310909](D:\MyCtf\img\image-20220903104310909.png)
+![image-20220903104310909](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220903104310909.png)
 
-![image-20220903104326774](D:\MyCtf\img\image-20220903104326774.png)
+![image-20220903104326774](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220903104326774.png)
 
-![image-20220903104337933](D:\MyCtf\img\image-20220903104337933.png)
+![image-20220903104337933](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220903104337933.png)
 
 更改cookie登录
 
-![image-20220903104800000](D:\MyCtf\img\image-20220903104800000.png)
+![image-20220903104800000](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220903104800000.png)
 
 ## cryptography
 
@@ -7361,7 +7361,7 @@ base64解码
 
 需要先完成 HashingAssignment该部分编写 
 
-![image-20220903133231225](D:\MyCtf\img\image-20220903133231225.png)
+![image-20220903133231225](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220903133231225.png)
 
 ```java
 package com.wanan.webgoat.lessons.cryptography;
@@ -7419,9 +7419,9 @@ public class EncodingAssignment extends AssignmentEndpoint {
 }
 ```
 
-![image-20220903133620704](D:\MyCtf\img\image-20220903133620704.png)
+![image-20220903133620704](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220903133620704.png)
 
-![image-20220903133644095](D:\MyCtf\img\image-20220903133644095.png)
+![image-20220903133644095](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220903133644095.png)
 
 ### XOREncodingAssignment
 
@@ -7455,11 +7455,11 @@ public class XOREncodingAssignment extends AssignmentEndpoint {
 }
 ```
 
-![image-20220905190857076](D:\MyCtf\img\image-20220905190857076.png)
+![image-20220905190857076](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220905190857076.png)
 
 这里其实考察的是 webSphere 解密
 
-![image-20220905191051993](D:\MyCtf\img\image-20220905191051993.png)
+![image-20220905191051993](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220905191051993.png)
 
 这里我找到了这个网站
 
@@ -7467,9 +7467,9 @@ http://www.sysman.nl/wasdecoder/
 
 先进行base64解密在 解密一次即可
 
-![image-20220905191233290](D:\MyCtf\img\image-20220905191233290.png)
+![image-20220905191233290](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220905191233290.png)
 
-![image-20220905191549601](D:\MyCtf\img\image-20220905191549601.png)
+![image-20220905191549601](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220905191549601.png)
 
 ### HashingAssignment
 
@@ -7573,15 +7573,15 @@ public class HashingAssignment extends AssignmentEndpoint {
 
 ```
 
-![image-20220905220128712](D:\MyCtf\img\image-20220905220128712.png)
+![image-20220905220128712](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220905220128712.png)
 
 意思就是让我们解一下明文
 
-![image-20220905220150080](D:\MyCtf\img\image-20220905220150080.png)
+![image-20220905220150080](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220905220150080.png)
 
-![image-20220905220207067](D:\MyCtf\img\image-20220905220207067.png)
+![image-20220905220207067](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220905220207067.png)
 
-![image-20220905220541246](D:\MyCtf\img\image-20220905220541246.png)
+![image-20220905220541246](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220905220541246.png)
 
 ### SigningAssignment
 
@@ -7774,11 +7774,11 @@ public class CryptoUtil {
 }
 ```
 
-![image-20220907110138212](D:\MyCtf\img\image-20220907110138212.png)
+![image-20220907110138212](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220907110138212.png)
 
 打开了题目是给了我们私钥 让我们去提取公钥的模数与签名
 
-![image-20220907120305221](D:\MyCtf\img\image-20220907120305221.png)
+![image-20220907120305221](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220907120305221.png)
 
 将私钥存入文件pri.key 
 
@@ -7803,7 +7803,7 @@ openssl rsa -in pub.key -pubin -modulus -noout
 -noout  表示不输出加密的证书内容
 ```
 
-![image-20220907120426316](D:\MyCtf\img\image-20220907120426316.png)
+![image-20220907120426316](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220907120426316.png)
 
 获取私钥的签名
 
@@ -7815,7 +7815,7 @@ dgst 代表单向加密
 -out sign.sha256 代表输出内容到文件
 ```
 
-![image-20220907122543161](D:\MyCtf\img\image-20220907122543161.png)
+![image-20220907122543161](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220907122543161.png)
 
 由于是不可见字符 因此我们先进行base64加密
 
@@ -7823,9 +7823,9 @@ dgst 代表单向加密
 cat sign.sha256 | base64
 ```
 
-![image-20220907123317981](D:\MyCtf\img\image-20220907123317981.png)
+![image-20220907123317981](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220907123317981.png)
 
-![image-20220907123537021](D:\MyCtf\img\image-20220907123537021.png)
+![image-20220907123537021](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220907123537021.png)
 
 ### SecureDefaultsAssignment
 
@@ -7865,7 +7865,7 @@ public class SecureDefaultsAssignment extends AssignmentEndpoint {
 }
 ```
 
-![image-20220907124752947](D:\MyCtf\img\image-20220907124752947.png)
+![image-20220907124752947](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220907124752947.png)
 
 这里说的挺清楚了 拉下docker 启动下
 
@@ -7873,7 +7873,7 @@ public class SecureDefaultsAssignment extends AssignmentEndpoint {
 docker run -d webgoat/assignments:findthesecret
 ```
 
-![image-20220907125159088](D:\MyCtf\img\image-20220907125159088.png)
+![image-20220907125159088](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220907125159088.png)
 
 看下容器id 并以root用户进入容器
 
@@ -7885,7 +7885,7 @@ docker ps
 docker exec -it --user root  8e7bc8220b03 /bin/bash
 ```
 
-![image-20220907125554049](D:\MyCtf\img\image-20220907125554049.png)
+![image-20220907125554049](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220907125554049.png)
 
 先到root目录下 接着查看文件名接着解密
 
@@ -7893,9 +7893,9 @@ docker exec -it --user root  8e7bc8220b03 /bin/bash
 echo "U2FsdGVkX199jgh5oANElFdtCxIEvdEvciLi+v+5loE+VCuy6Ii0b+5byb5DXp32RPmT02Ek1pf55ctQN+DHbwCPiVRfFQamDmbHBUpD7as=" | openssl enc -aes-256-cbc -d -a -k ThisIsMySecretPassw0rdF0rY0u
 ```
 
-![image-20220907125934324](D:\MyCtf\img\image-20220907125934324.png)
+![image-20220907125934324](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220907125934324.png)
 
-![image-20220907131143402](D:\MyCtf\img\image-20220907131143402.png)
+![image-20220907131143402](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220907131143402.png)
 
 ## sql_injection
 
@@ -8041,59 +8041,59 @@ public class SqlInjectionLesson8 extends AssignmentEndpoint {
 
 ```
 
-![image-20220907153510840](D:\MyCtf\img\image-20220907153510840.png)
+![image-20220907153510840](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220907153510840.png)
 
 首先我们需要先理解一下 这个dataSource
 
-![image-20220907153613466](D:\MyCtf\img\image-20220907153613466.png)
+![image-20220907153613466](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220907153613466.png)
 
 首先这里继承了DataSource 接口  这里面有一堆方法 那这些方法是干嘛的呢? 其次仔细看 这里的DataSource 是一个接口啊(接口是不能实例化的)  那接口执行的方法是谁的呢?
 
-![image-20220907153708265](D:\MyCtf\img\image-20220907153708265.png)
+![image-20220907153708265](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220907153708265.png)
 
 可以看到这里传进了一个dataSource方法
 
-![image-20220907154742560](D:\MyCtf\img\image-20220907154742560.png)
+![image-20220907154742560](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220907154742560.png)
 
 这里就比较好玩了 首先这里new了一个DriverManagerDataSource 众所周知 这就代表着父类对象引用指向子类多态,也就是在执行阶段是执行的DriverManagerDataSource()中的方法 那么这样的前提条件就是DriverManagerDataSource 继承了dataSource
 
-![image-20220907154829878](D:\MyCtf\img\image-20220907154829878.png)
+![image-20220907154829878](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220907154829878.png)
 
 这里依次跟过去就很容易发现 确实是这样的
 
-![image-20220907155034500](D:\MyCtf\img\image-20220907155034500.png)
+![image-20220907155034500](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220907155034500.png)
 
 接下来我们看到getConnection()  注意这里的两个getConnection其实并不相同的
 
-![image-20220907155328407](D:\MyCtf\img\image-20220907155328407.png)
+![image-20220907155328407](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220907155328407.png)
 
 进去之后就会跳到 DataSource 里面去 这很明显不可能调用接口的方法的 因此我们从前往后找
 
-![image-20220907155422263](D:\MyCtf\img\image-20220907155422263.png)
+![image-20220907155422263](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220907155422263.png)
 
 这里不存在 不要问为啥找这个类 这个是在运行的时候会调用的 java调用从子到父
 
-![image-20220907155506896](D:\MyCtf\img\image-20220907155506896.png)
+![image-20220907155506896](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220907155506896.png)
 
 这里便存在了 
 
-![image-20220907155530155](D:\MyCtf\img\image-20220907155530155.png)
+![image-20220907155530155](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220907155530155.png)
 
 这里就可以理解为进行了连接
 
-![image-20220907155636967](D:\MyCtf\img\image-20220907155636967.png)
+![image-20220907155636967](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220907155636967.png)
 
 这里呢 是什么意思呢 很明显么 这里就是一个动态代理 不明白动态代理的 可以去看我写的反序列cc链的文章
 
-![image-20220907155748175](D:\MyCtf\img\image-20220907155748175.png)
+![image-20220907155748175](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220907155748175.png)
 
 这里简单的读一下这个LessonConnectionInvocationHandler 对象 
 
-![image-20220907161322251](D:\MyCtf\img\image-20220907161322251.png)
+![image-20220907161322251](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220907161322251.png)
 
 这里首先继承了 InvocationHandler 类 并且重写了这里的invoke方法,也就是代表当我们执行 任意 targetConnection 的方法之后都会执行 invoke方法  可以看到这里的invoke进行了sql 的初始化操作 完成了一些预定义的命令
 
-![image-20220907162836126](D:\MyCtf\img\image-20220907162836126.png)
+![image-20220907162836126](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220907162836126.png)
 
 这里也说的比较清楚了 目的让我们去检索 bob 的部门
 
@@ -8103,7 +8103,7 @@ public class SqlInjectionLesson8 extends AssignmentEndpoint {
 select department from Employees where userid= 96134
 ```
 
-![image-20220907163023430](D:\MyCtf\img\image-20220907163023430.png)
+![image-20220907163023430](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220907163023430.png)
 
 #### SqlInjectionLesson3
 
@@ -8165,7 +8165,7 @@ public class SqlInjectionLesson3 extends AssignmentEndpoint {
 }
 ```
 
-![image-20220907175202885](D:\MyCtf\img\image-20220907175202885.png)
+![image-20220907175202885](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220907175202885.png)
 
 这里就是将tobi barnett 的部门改了
 
@@ -8173,7 +8173,7 @@ public class SqlInjectionLesson3 extends AssignmentEndpoint {
 update Employees set  department='Sales' where userid=89762
 ```
 
-![image-20220907175142709](D:\MyCtf\img\image-20220907175142709.png)
+![image-20220907175142709](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220907175142709.png)
 
 #### SqlInjectionLesson4
 
@@ -8237,7 +8237,7 @@ public class SqlInjectionLesson4 extends AssignmentEndpoint {
 }
 ```
 
-![image-20220907185338908](D:\MyCtf\img\image-20220907185338908.png)
+![image-20220907185338908](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220907185338908.png)
 
 添加一列数据
 
@@ -8245,7 +8245,7 @@ public class SqlInjectionLesson4 extends AssignmentEndpoint {
 alter table employees add phone varchar(20)
 ```
 
-![image-20220907185247380](D:\MyCtf\img\image-20220907185247380.png)
+![image-20220907185247380](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220907185247380.png)
 
 #### SqlInjectionLesson5
 
@@ -8333,7 +8333,7 @@ public class SqlInjectionLesson5 extends AssignmentEndpoint {
 grant all privileges on grant_rights to unauthorized_user
 ```
 
-![image-20220907200019144](D:\MyCtf\img\image-20220907200019144.png)
+![image-20220907200019144](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220907200019144.png)
 
 #### SqlInjectionLesson5a
 
@@ -8432,11 +8432,11 @@ public class SqlInjectionLesson5a extends AssignmentEndpoint {
 }
 ```
 
-![image-20220908100816364](D:\MyCtf\img\image-20220908100816364.png)
+![image-20220908100816364](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220908100816364.png)
 
 简单的一个万能密码
 
-![image-20220908100907161](D:\MyCtf\img\image-20220908100907161.png)
+![image-20220908100907161](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220908100907161.png)
 
 #### SqlInjectionLesson5b
 
@@ -8520,7 +8520,7 @@ public class SqlInjectionLesson5b extends AssignmentEndpoint {
 1 or 1=1
 ```
 
-![image-20220908122215280](D:\MyCtf\img\image-20220908122215280.png)
+![image-20220908122215280](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220908122215280.png)
 
 #### SqlInjectionLesson8
 
@@ -8651,7 +8651,7 @@ public class SqlInjectionLesson8 extends AssignmentEndpoint {
 ' or '1'='1' --+ 
 ```
 
-![image-20220908122832409](D:\MyCtf\img\image-20220908122832409.png)
+![image-20220908122832409](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220908122832409.png)
 
 #### SqlInjectionLesson9
 
@@ -8739,7 +8739,7 @@ public class SqlInjectionLesson9 extends AssignmentEndpoint {
 Smith';update employees set salary='83000000' where auth_tan='3SL99A' -- +
 ```
 
-![image-20220908131946425](D:\MyCtf\img\image-20220908131946425.png)
+![image-20220908131946425](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220908131946425.png)
 
 #### SqlInjectionLesson10
 
@@ -8829,7 +8829,7 @@ public class SqlInjectionLesson10 extends AssignmentEndpoint {
 %'; drop table access_log-- +
 ```
 
-![image-20220908135904037](D:\MyCtf\img\image-20220908135904037.png)
+![image-20220908135904037](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220908135904037.png)
 
 ### advanced
 
@@ -8995,17 +8995,17 @@ public class SqlInjectionLesson6b extends AssignmentEndpoint {
 ' union select 1,'2','3','4',user_name,password,7 from user_system_data  where user_name ='dave'  -- + 
 ```
 
-![image-20220908153915708](D:\MyCtf\img\image-20220908153915708.png)
+![image-20220908153915708](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220908153915708.png)
 
 ```
 ';select * from user_system_data -- +
 ```
 
-![image-20220908155707552](D:\MyCtf\img\image-20220908155707552.png)
+![image-20220908155707552](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220908155707552.png)
 
 两个框是两个题目
 
-![image-20220908220745492](D:\MyCtf\img\image-20220908220745492.png)
+![image-20220908220745492](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220908220745492.png)
 
 #### SqlInjectionChallenge
 
@@ -9122,13 +9122,13 @@ public class SqlInjectionChallengeLogin extends AssignmentEndpoint {
 }
 ```
 
-![image-20220908175309466](D:\MyCtf\img\image-20220908175309466.png)
+![image-20220908175309466](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220908175309466.png)
 
 简单测试下
 
-![image-20220908180524928](D:\MyCtf\img\image-20220908180524928.png)
+![image-20220908180524928](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220908180524928.png)
 
-![image-20220908180530962](D:\MyCtf\img\image-20220908180530962.png)
+![image-20220908180530962](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220908180530962.png)
 
 简单写一下注入脚本
 
@@ -9171,15 +9171,15 @@ while True:
 
 ```
 
-![image-20220908213445711](D:\MyCtf\img\image-20220908213445711.png)
+![image-20220908213445711](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220908213445711.png)
 
-![image-20220908213851031](D:\MyCtf\img\image-20220908213851031.png)
+![image-20220908213851031](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220908213851031.png)
 
-![image-20220908214114587](D:\MyCtf\img\image-20220908214114587.png)
+![image-20220908214114587](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220908214114587.png)
 
-![image-20220908214238156](D:\MyCtf\img\image-20220908214238156.png)
+![image-20220908214238156](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220908214238156.png)
 
-![image-20220908214912029](D:\MyCtf\img\image-20220908214912029.png)
+![image-20220908214912029](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220908214912029.png)
 
 #### SqlInjectionQuiz
 
@@ -9230,7 +9230,7 @@ public class SqlInjectionQuiz extends AssignmentEndpoint {
 
 答案 4 3 2 3 4
 
-![image-20220908223342069](D:\MyCtf\img\image-20220908223342069.png)
+![image-20220908223342069](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220908223342069.png)
 
 ### mitigation
 
@@ -9300,7 +9300,7 @@ public class SqlInjectionLesson10a extends AssignmentEndpoint {
 }
 ```
 
-![image-20220908230652243](D:\MyCtf\img\image-20220908230652243.png)
+![image-20220908230652243](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220908230652243.png)
 
 #### SqlInjectionLesson10b
 
@@ -9449,7 +9449,7 @@ try{
 }
 ```
 
-![image-20220909111708681](D:\MyCtf\img\image-20220909111708681.png)
+![image-20220909111708681](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220909111708681.png)
 
 #### SqlOnlyInputValidation
 
@@ -9491,13 +9491,13 @@ public class SqlOnlyInputValidation extends AssignmentEndpoint {
 '/**/union/**/select/**/1,'2','3','4',user_name,password,7/**/from/**/user_system_data/**//**/where/**/user_name/**/='dave'/**//**/--
 ```
 
-![image-20220909125018637](D:\MyCtf\img\image-20220909125018637.png)
+![image-20220909125018637](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220909125018637.png)
 
 ```
 ';select/**/*/**/from/**/user_system_data/**/--
 ```
 
-![image-20220909125054080](D:\MyCtf\img\image-20220909125054080.png)
+![image-20220909125054080](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220909125054080.png)
 
 #### SqlOnlyInputValidationOnKeywords
 
@@ -9542,7 +9542,7 @@ public class SqlOnlyInputValidationOnKeywords extends AssignmentEndpoint {
 ';selselectect/**/*/**/frfromom/**/user_system_data/**/--
 ```
 
-![image-20220909132411903](D:\MyCtf\img\image-20220909132411903.png)
+![image-20220909132411903](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220909132411903.png)
 
 #### SqlInjectionLesson13
 
@@ -9654,9 +9654,9 @@ public class Servers {
 
 case when 注入 
 
-![image-20220909165709411](D:\MyCtf\img\image-20220909165709411.png)
+![image-20220909165709411](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220909165709411.png)
 
-![image-20220909165743970](D:\MyCtf\img\image-20220909165743970.png)
+![image-20220909165743970](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220909165743970.png)
 
 构造下 写个脚本
 
@@ -9697,9 +9697,9 @@ while True:
                 print(passwd)
 ```
 
-![image-20220909165300411](D:\MyCtf\img\image-20220909165300411.png)
+![image-20220909165300411](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220909165300411.png)
 
-![image-20220909165633821](D:\MyCtf\img\image-20220909165633821.png)
+![image-20220909165633821](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220909165633821.png)
 
 ## path_traversal
 
@@ -9876,7 +9876,7 @@ public class ProfileUploadBase extends AssignmentEndpoint {
 
 ```
 
-![image-20220909205611401](D:\MyCtf\img\image-20220909205611401.png)
+![image-20220909205611401](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220909205611401.png)
 
 这里是目录穿越上传的路径
 
@@ -9918,7 +9918,7 @@ public class ProfileUploadFix extends ProfileUploadBase{
 
 简单过滤
 
-![image-20220909213319423](D:\MyCtf\img\image-20220909213319423.png)
+![image-20220909213319423](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220909213319423.png)
 
 ### ProfileUploadRemoveUserInput
 
@@ -9952,7 +9952,7 @@ public class ProfileUploadRemoveUserInput extends ProfileUploadBase{
 }
 ```
 
-![image-20220909214332814](D:\MyCtf\img\image-20220909214332814.png)
+![image-20220909214332814](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220909214332814.png)
 
 ### ProfileUploadRetrieval
 
@@ -10073,17 +10073,17 @@ public class ProfileUploadRetrieval extends AssignmentEndpoint {
 
 这里有个参数id 也不知道咋来的
 
-![image-20220909224137992](D:\MyCtf\img\image-20220909224137992.png)
+![image-20220909224137992](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220909224137992.png)
 
 我们来看看重点代码
 
-![image-20220909224426508](D:\MyCtf\img\image-20220909224426508.png)
+![image-20220909224426508](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220909224426508.png)
 
-![image-20220909224416278](D:\MyCtf\img\image-20220909224416278.png)
+![image-20220909224416278](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220909224416278.png)
 
-![image-20220909224523111](D:\MyCtf\img\image-20220909224523111.png)
+![image-20220909224523111](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220909224523111.png)
 
-![image-20220909224528186](D:\MyCtf\img\image-20220909224528186.png)
+![image-20220909224528186](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220909224528186.png)
 
 ### ProfileZipSlip
 
@@ -10189,7 +10189,7 @@ public class ProfileZipSlip extends ProfileUploadBase {
 
 这里考察的其实是zip slip目录遍历漏洞
 
-![image-20220910132227695](D:\MyCtf\img\image-20220910132227695.png)
+![image-20220910132227695](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220910132227695.png)
 
 我们先看怎么做
 
@@ -10203,21 +10203,21 @@ zf.write(fname,"../../../../../../../../../../../../Users/14980/.webgoat-8.2.3-S
 
 这里是使用python生成一个zf.zip 其中的内容呢是 zf.jpg中的内容 而压缩后的文件名为后面的一长串 
 
-![image-20220910132923157](D:\MyCtf\img\image-20220910132923157.png)
+![image-20220910132923157](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220910132923157.png)
 
 上传zip
 
-![image-20220910133013887](D:\MyCtf\img\image-20220910133013887.png)
+![image-20220910133013887](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220910133013887.png)
 
 这里可以看到经过目录穿越到达了这个目录下面
 
-![image-20220910133100966](D:\MyCtf\img\image-20220910133100966.png)
+![image-20220910133100966](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220910133100966.png)
 
 这里的判断结果也是两个数组是否相同 也就是图片有没有上传上去
 
-![image-20220910133201950](D:\MyCtf\img\image-20220910133201950.png)
+![image-20220910133201950](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220910133201950.png)
 
-![image-20220910133227276](D:\MyCtf\img\image-20220910133227276.png)
+![image-20220910133227276](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220910133227276.png)
 
 ## xss
 
@@ -10271,11 +10271,11 @@ public class CrossSiteScriptingLesson1 extends AssignmentEndpoint {
 
 这关让我们了解什么xss
 
-![image-20220910134114167](D:\MyCtf\img\image-20220910134114167.png)
+![image-20220910134114167](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220910134114167.png)
 
 选中对号即可过关
 
-![image-20220910134128457](D:\MyCtf\img\image-20220910134128457.png)
+![image-20220910134128457](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220910134128457.png)
 
 ### CrossSiteScriptingLesson5a
 
@@ -10338,7 +10338,7 @@ public class CrossSiteScriptingLesson5a extends AssignmentEndpoint {
 }
 ```
 
-![image-20220910153412297](D:\MyCtf\img\image-20220910153412297.png)
+![image-20220910153412297](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220910153412297.png)
 
 ### CrossSiteScriptingLesson6a
 
@@ -10372,7 +10372,7 @@ public class CrossSiteScriptingLesson6a extends AssignmentEndpoint {
 }
 ```
 
-![image-20220910154405873](D:\MyCtf\img\image-20220910154405873.png)
+![image-20220910154405873](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220910154405873.png)
 
 ### DOMCrossSiteScriptingVerifier
 
@@ -10448,7 +10448,7 @@ public class DOMCrossSiteScripting extends AssignmentEndpoint {
 http://127.0.0.1:8081/WebGoat/start.mvc#test/webgoat.customjs.phoneHome()
 ```
 
-![image-20220910162859176](D:\MyCtf\img\image-20220910162859176.png)
+![image-20220910162859176](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220910162859176.png)
 
 但是并没有执行 原因就是没有当做js代码执行
 
@@ -10456,11 +10456,11 @@ http://127.0.0.1:8081/WebGoat/start.mvc#test/webgoat.customjs.phoneHome()
 127.0.0.1:8081/WebGoat/start.mvc#test/<script>webgoat.customjs.phoneHome()
 ```
 
-![image-20220910175533353](D:\MyCtf\img\image-20220910175533353.png)
+![image-20220910175533353](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220910175533353.png)
 
 提交即可
 
-![image-20220910175612140](D:\MyCtf\img\image-20220910175612140.png)
+![image-20220910175612140](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220910175612140.png)
 
 这里奇怪的是 如果补全了就不执行了
 
@@ -10468,7 +10468,7 @@ http://127.0.0.1:8081/WebGoat/start.mvc#test/webgoat.customjs.phoneHome()
 http://127.0.0.1:8081/WebGoat/start.mvc#test/<script>webgoat.customjs.phoneHome()</script>
 ```
 
-![image-20220910163030582](D:\MyCtf\img\image-20220910163030582.png)
+![image-20220910163030582](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220910163030582.png)
 
 ### CrossSiteScriptingQuiz
 
@@ -10518,7 +10518,7 @@ public class CrossSiteScriptingQuiz extends AssignmentEndpoint {
 
 答案 4 3 1 2 4
 
-![image-20220910165049946](D:\MyCtf\img\image-20220910165049946.png)
+![image-20220910165049946](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220910165049946.png)
 
 ### stored
 
@@ -10551,7 +10551,7 @@ public class CrossSiteScriptingStored extends Lesson {
 
 注意与原文的差异
 
-![image-20220911115820497](D:\MyCtf\img\image-20220911115820497.png)
+![image-20220911115820497](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220911115820497.png)
 
 ```java
 package com.wanan.webgoat.lessons.xss.stored;
@@ -10673,7 +10673,7 @@ public class Comment {
 
 注意差异
 
-![image-20220911120330288](D:\MyCtf\img\image-20220911120330288.png)
+![image-20220911120330288](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220911120330288.png)
 
 ```java
 package com.wanan.webgoat.lessons.xss.stored;
@@ -10704,15 +10704,15 @@ public class StoredCrossSiteScriptingVerifier extends AssignmentEndpoint {
 
 存储进去后提交即可
 
-![image-20220911120209677](D:\MyCtf\img\image-20220911120209677.png)
+![image-20220911120209677](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220911120209677.png)
 
-![image-20220911120538752](D:\MyCtf\img\image-20220911120538752.png)
+![image-20220911120538752](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220911120538752.png)
 
 #### CrossSiteScriptingMitigation
 
 注意与原文的差异
 
-![image-20220910165707983](D:\MyCtf\img\image-20220910165707983.png)
+![image-20220910165707983](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220910165707983.png)
 
 ```java
 package com.wanan.webgoat.lessons.xss;
@@ -10735,7 +10735,7 @@ public class CrossSiteScriptingMitigation extends Lesson {
 
 #### CrossSiteScriptingLesson3
 
-![image-20220911120920537](D:\MyCtf\img\image-20220911120920537.png)
+![image-20220911120920537](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220911120920537.png)
 
 ```java
 package com.wanan.webgoat.lessons.xss;
@@ -10797,9 +10797,9 @@ public class CrossSiteScriptingLesson3 extends AssignmentEndpoint {
 
 这里是让我们写缓解措施 这里我们读读
 
-![image-20220911122117941](D:\MyCtf\img\image-20220911122117941.png)
+![image-20220911122117941](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220911122117941.png)
 
-![image-20220911122130960](D:\MyCtf\img\image-20220911122130960.png)
+![image-20220911122130960](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220911122130960.png)
 
 这里找到了缓解措施 我们直接抄 但是直接抄会出问题
 
@@ -10834,7 +10834,7 @@ public class CrossSiteScriptingLesson3 extends AssignmentEndpoint {
 
 一大一小 后面也不一样 直接复制了
 
-![image-20220911123231379](D:\MyCtf\img\image-20220911123231379.png)
+![image-20220911123231379](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220911123231379.png)
 
 答案
 
@@ -10867,13 +10867,13 @@ public class CrossSiteScriptingLesson3 extends AssignmentEndpoint {
 
 ```
 
-![image-20220911123553828](D:\MyCtf\img\image-20220911123553828.png)
+![image-20220911123553828](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220911123553828.png)
 
 #### CrossSiteScriptingLesson4
 
 注意差异
 
-![image-20220911120959361](D:\MyCtf\img\image-20220911120959361.png)
+![image-20220911120959361](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220911120959361.png)
 
 ```java
 package com.wanan.webgoat.lessons.xss;
@@ -10928,7 +10928,7 @@ public class AntiSamyController {
 }
 ```
 
-![image-20220911125152801](D:\MyCtf\img\image-20220911125152801.png)
+![image-20220911125152801](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220911125152801.png)
 
 ## xxe
 
@@ -11165,11 +11165,11 @@ public class CommentsEndpoint {
 
 发现提交的是xml文件
 
-![image-20220911145600036](D:\MyCtf\img\image-20220911145600036.png)
+![image-20220911145600036](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220911145600036.png)
 
 新建一个文件
 
-![image-20220911145702591](D:\MyCtf\img\image-20220911145702591.png)
+![image-20220911145702591](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220911145702591.png)
 
 ```xml
 <?xml version="1.0"?>
@@ -11180,17 +11180,17 @@ public class CommentsEndpoint {
 
 读取下这个文件试试
 
-![image-20220911145859718](D:\MyCtf\img\image-20220911145859718.png)
+![image-20220911145859718](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220911145859718.png)
 
-![image-20220911145907661](D:\MyCtf\img\image-20220911145907661.png)
+![image-20220911145907661](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220911145907661.png)
 
 发现成功回显
 
 这题通过需要获取c盘下的指定目录名
 
-![image-20220911151413385](D:\MyCtf\img\image-20220911151413385.png)
+![image-20220911151413385](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220911151413385.png)
 
-![image-20220911151501260](D:\MyCtf\img\image-20220911151501260.png)
+![image-20220911151501260](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220911151501260.png)
 
 ### ContentTypeAssignment
 
@@ -11262,11 +11262,11 @@ public class ContentTypeAssignment extends AssignmentEndpoint {
 }
 ```
 
-![image-20220911153939378](D:\MyCtf\img\image-20220911153939378.png)
+![image-20220911153939378](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220911153939378.png)
 
 这个题目也不知道啥意思 不收json数据 但是前段发送的是json数据
 
-![image-20220911154039782](D:\MyCtf\img\image-20220911154039782.png)
+![image-20220911154039782](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220911154039782.png)
 
 稍微修改一下
 
@@ -11367,7 +11367,7 @@ public class BlindSendFileAssignment extends AssignmentEndpoint {
 
 通过webwolf上传并获取路径信息
 
-![image-20220911180913447](D:\MyCtf\img\image-20220911180913447.png)
+![image-20220911180913447](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220911180913447.png)
 
 ```
 http://127.0.0.1:9090/files/123456/eval.dtd
@@ -11388,11 +11388,11 @@ http://127.0.0.1:9090/files/123456/eval.dtd
 
 这样就会接收到请求了
 
-![image-20220911181107673](D:\MyCtf\img\image-20220911181107673.png)
+![image-20220911181107673](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220911181107673.png)
 
 提交即可
 
-![image-20220911181156536](D:\MyCtf\img\image-20220911181156536.png)
+![image-20220911181156536](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220911181156536.png)
 
 ## vulnerable_components
 
@@ -11421,7 +11421,7 @@ public class VulnerableComponents extends Lesson {
 
 这一关是前端组件 不需要后端代码
 
-![image-20220911182441815](D:\MyCtf\img\image-20220911182441815.png)
+![image-20220911182441815](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220911182441815.png)
 
 ### VulnerableComponentsLesson
 
@@ -11515,7 +11515,7 @@ public class VulnerableComponentsLesson extends AssignmentEndpoint {
 
 主要讲了一个cve 其中也写了只在使用docker镜像时有效
 
-![image-20220911192236151](D:\MyCtf\img\image-20220911192236151.png)
+![image-20220911192236151](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220911192236151.png)
 
 ## auth_bypass
 
@@ -11664,7 +11664,7 @@ public class AccountVerificationHelper {
 
 这里只要两个没有预定义过的就可以绕过了
 
-![image-20220911201509403](D:\MyCtf\img\image-20220911201509403.png)
+![image-20220911201509403](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220911201509403.png)
 
 ## insecure_login
 
@@ -11720,11 +11720,11 @@ public class InsecureLoginTask extends AssignmentEndpoint {
 
 ```
 
-![image-20220911203004937](D:\MyCtf\img\image-20220911203004937.png)
+![image-20220911203004937](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220911203004937.png)
 
 输入就过
 
-![image-20220911203105064](D:\MyCtf\img\image-20220911203105064.png)
+![image-20220911203105064](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220911203105064.png)
 
 ## jwt
 
@@ -11779,9 +11779,9 @@ public class JWTDecodeEndpoint extends AssignmentEndpoint {
 
 直接打开webwolf 解码一下即可
 
-![image-20220911210122147](D:\MyCtf\img\image-20220911210122147.png)
+![image-20220911210122147](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220911210122147.png)
 
-![image-20220911210131002](D:\MyCtf\img\image-20220911210131002.png)
+![image-20220911210131002](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220911210131002.png)
 
 ### JWTVotesEndpoint
 
@@ -12025,13 +12025,13 @@ public class JWTVotesEndpoint extends AssignmentEndpoint {
 
 这里先哪一个 token
 
-![image-20220912184217753](D:\MyCtf\img\image-20220912184217753.png)
+![image-20220912184217753](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220912184217753.png)
 
-![image-20220912184256942](D:\MyCtf\img\image-20220912184256942.png)
+![image-20220912184256942](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220912184256942.png)
 
 注意这里多加了个 .
 
-![image-20220912184337398](D:\MyCtf\img\image-20220912184337398.png)
+![image-20220912184337398](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220912184337398.png)
 
 ### JWTQuiz
 
@@ -12082,17 +12082,17 @@ public class JWTQuiz extends AssignmentEndpoint {
 
 重点就在下面的两个函数上面 我们先去看一下源文档
 
-![image-20220912184414021](D:\MyCtf\img\image-20220912184414021.png)
+![image-20220912184414021](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220912184414021.png)
 
 这里只能解密带密钥的jwt 
 
-![image-20220912184550440](D:\MyCtf\img\image-20220912184550440.png)
+![image-20220912184550440](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220912184550440.png)
 
 这里两个都可以 答案就很明显了
 
-![image-20220912184611212](D:\MyCtf\img\image-20220912184611212.png)
+![image-20220912184611212](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220912184611212.png)
 
-![image-20220912184637729](D:\MyCtf\img\image-20220912184637729.png)
+![image-20220912184637729](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220912184637729.png)
 
 ### JWTSecretKeyEndpoint
 
@@ -12172,13 +12172,13 @@ eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJXZWJHb2F0IFRva2VuIEJ1aWxkZXIiLCJhdWQiOiJ3ZWJnb2F
 hashcat token.txt -m 16500 -a 3 -w 3  /root/c-jwt-cracker/google-10000-english/google-10000-english.txt
 ```
 
-![image-20220912184940360](D:\MyCtf\img\image-20220912184940360.png)
+![image-20220912184940360](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220912184940360.png)
 
 这里需要注意的是失效的时间
 
-![image-20220912185143775](D:\MyCtf\img\image-20220912185143775.png)
+![image-20220912185143775](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220912185143775.png)
 
-![image-20220912185200310](D:\MyCtf\img\image-20220912185200310.png)
+![image-20220912185200310](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220912185200310.png)
 
 ### JWTRefreshEndpoint
 
@@ -12311,43 +12311,43 @@ public class JWTRefreshEndpoint extends AssignmentEndpoint {
 
 问题就出现在这里 这里对refreshToken 的校验极小 导致仅仅存在就通过了 没有对绑定的用户做进一步确认 因此这里的user可以随我们控制进入
 
-![image-20220912214902920](D:\MyCtf\img\image-20220912214902920.png)
+![image-20220912214902920](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220912214902920.png)
 
 但是呢 这道题目必须要读源码 这里有两个重点 一是日志文件 另一个是tom付费
 
-![image-20220912214026064](D:\MyCtf\img\image-20220912214026064.png)
+![image-20220912214026064](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220912214026064.png)
 
 这里可以看到给的信息根本不够用
 
-![image-20220912214104790](D:\MyCtf\img\image-20220912214104790.png)
+![image-20220912214104790](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220912214104790.png)
 
 这里的登录很明显 这个Jerry 的用户名和密码是已知的 而且既然让我们用tom去买书 那么我们应该有个账号吧
 
-![image-20220912214441115](D:\MyCtf\img\image-20220912214441115.png)
+![image-20220912214441115](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220912214441115.png)
 
 因此这里的Jerry 用户名密码当做已知条件 接着就是参数问题了 首先后端接受的参数是json 那么我们必须发送json 注意Content-Type 而这里的参数名也比较好猜 user password 我们也当做已知
 
-![image-20220912222956517](D:\MyCtf\img\image-20220912222956517.png)
+![image-20220912222956517](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220912222956517.png)
 
 这样我们就通过已知账号登录了 并获取了一个refresh_token
 
 接着我们需要去请求newToken 这里也没有给出提示 当我们拿到了所有的值去访问的时候还是会出现认证不通过的情况是什么原因呢
 
-![image-20220912223031789](D:\MyCtf\img\image-20220912223031789.png)
+![image-20220912223031789](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220912223031789.png)
 
 这里的jwt解析完成后其实使用的是Jerry
 
-![image-20220912220723712](D:\MyCtf\img\image-20220912220723712.png)
+![image-20220912220723712](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220912220723712.png)
 
 也就是说我们需要一个tom的jwt来请求
 
-![image-20220912220759305](D:\MyCtf\img\image-20220912220759305.png)
+![image-20220912220759305](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220912220759305.png)
 
-![image-20220912223055438](D:\MyCtf\img\image-20220912223055438.png)
+![image-20220912223055438](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220912223055438.png)
 
 成功获取到tom的token 买东西
 
-![image-20220912223201628](D:\MyCtf\img\image-20220912223201628.png)
+![image-20220912223201628](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220912223201628.png)
 
 ### JWTFinalEndpoint
 
@@ -12436,7 +12436,7 @@ public class JWTFinalEndpoint extends AssignmentEndpoint {
 
 ```
 
-![image-20220913205353864](D:\MyCtf\img\image-20220913205353864.png)
+![image-20220913205353864](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220913205353864.png)
 
 这里的sql语句中的from 其实是让sql语句顺利执行的 因为这里使用的是hsql
 
@@ -12446,9 +12446,9 @@ webgoat_key' union select 'MQ==' from salaries --
 
 注意失效时间
 
-![image-20220913210325154](D:\MyCtf\img\image-20220913210325154.png)
+![image-20220913210325154](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220913210325154.png)
 
-![image-20220913210341503](D:\MyCtf\img\image-20220913210341503.png)
+![image-20220913210341503](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220913210341503.png)
 
 ## password_reset
 
@@ -12579,21 +12579,21 @@ public class PasswordResetEmail implements Serializable {
 
 测试一下webwolf的email 是否通
 
-![image-20220913223829802](D:\MyCtf\img\image-20220913223829802.png)
+![image-20220913223829802](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220913223829802.png)
 
 前面用户名 @后面随意
 
-![image-20220913223856909](D:\MyCtf\img\image-20220913223856909.png)
+![image-20220913223856909](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220913223856909.png)
 
-![image-20220913224004082](D:\MyCtf\img\image-20220913224004082.png)
+![image-20220913224004082](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220913224004082.png)
 
 接收到邮箱
 
-![image-20220913224019486](D:\MyCtf\img\image-20220913224019486.png)
+![image-20220913224019486](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220913224019486.png)
 
 登录即可过关
 
-![image-20220913224052566](D:\MyCtf\img\image-20220913224052566.png)
+![image-20220913224052566](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220913224052566.png)
 
 ### QuestionsAssignment
 
@@ -12642,13 +12642,13 @@ public class QuestionsAssignment extends AssignmentEndpoint {
 }
 ```
 
-![image-20220914104233197](D:\MyCtf\img\image-20220914104233197.png)
+![image-20220914104233197](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220914104233197.png)
 
 这里的意思是让我们爆破吗
 
 这里不爆破了直接登了
 
-![image-20220914104310434](D:\MyCtf\img\image-20220914104310434.png)
+![image-20220914104310434](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220914104310434.png)
 
 ### SecurityQuestionAssignment
 
@@ -12735,15 +12735,15 @@ public class TriedQuestions {
 
 随便看两个问题就过关
 
-![image-20220914105706860](D:\MyCtf\img\image-20220914105706860.png)
+![image-20220914105706860](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220914105706860.png)
 
 ### ResetLinkAssignment
 
 注意与原文的差异 对应均需要修改 
 
-![image-20220914123421945](D:\MyCtf\img\image-20220914123421945.png)
+![image-20220914123421945](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220914123421945.png)
 
-![image-20220914123349453](D:\MyCtf\img\image-20220914123349453.png)
+![image-20220914123349453](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220914123349453.png)
 
 ```java
 package com.wanan.webgoat.lessons.password_reset;
@@ -12959,49 +12959,49 @@ public class PasswordChangeForm {
 }
 ```
 
-![image-20220914155825580](D:\MyCtf\img\image-20220914155825580.png)
+![image-20220914155825580](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220914155825580.png)
 
 发送邮件这里可以看到取的是请求头中的host去发送的
 
-![image-20220914155911808](D:\MyCtf\img\image-20220914155911808.png)
+![image-20220914155911808](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220914155911808.png)
 
 这里的host跟踪下发现到了 这里
 
-![image-20220914160122835](D:\MyCtf\img\image-20220914160122835.png)
+![image-20220914160122835](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220914160122835.png)
 
-![image-20220914160138495](D:\MyCtf\img\image-20220914160138495.png)
+![image-20220914160138495](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220914160138495.png)
 
 也就是说拼接到了邮件里面去了 还需要注意的是 这里的拼接附带着uuid 也就是说 如果我们拿到这个uuid自然就可以重置别人的密码
 
 这里我们可以跟着走一遍就知道什么原因了 抓一下下面的包
 
-![image-20220914160426747](D:\MyCtf\img\image-20220914160426747.png)
+![image-20220914160426747](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220914160426747.png)
 
 更改host为webwolf
 
-![image-20220914160540114](D:\MyCtf\img\image-20220914160540114.png)
+![image-20220914160540114](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220914160540114.png)
 
 我们接着跟下去看看
 
 这里的话其实是在模拟tom去手动点击这个email地址
 
-![image-20220914160722785](D:\MyCtf\img\image-20220914160722785.png)
+![image-20220914160722785](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220914160722785.png)
 
 这里就可以看到了 这个host是一路跟下来的
 
-![image-20220914160828768](D:\MyCtf\img\image-20220914160828768.png)
+![image-20220914160828768](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220914160828768.png)
 
 那么就会发送请求到webwolf中去
 
-![image-20220914161038589](D:\MyCtf\img\image-20220914161038589.png)
+![image-20220914161038589](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220914161038589.png)
 
 拿到uuid去更改tom的密码
 
-![image-20220914161158331](D:\MyCtf\img\image-20220914161158331.png)
+![image-20220914161158331](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220914161158331.png)
 
 接着去登录tom
 
-![image-20220914161228192](D:\MyCtf\img\image-20220914161228192.png)
+![image-20220914161228192](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220914161228192.png)
 
 ## secure_passwords
 
@@ -13106,7 +13106,7 @@ public class SecurePasswordsAssignment extends AssignmentEndpoint {
 }
 ```
 
-![image-20220914170132735](D:\MyCtf\img\image-20220914170132735.png)
+![image-20220914170132735](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220914170132735.png)
 
 ## deserialization
 
@@ -13204,7 +13204,7 @@ public class InsecureDeserializationTask extends AssignmentEndpoint {
 
 这里相当于写了一个危险类 让我们了解反序列化漏洞
 
-![image-20220914201751549](D:\MyCtf\img\image-20220914201751549.png)
+![image-20220914201751549](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220914201751549.png)
 
 ```java
 package com.wanan.dummy.insecure.framework;
@@ -13283,11 +13283,11 @@ public class Unserlize {
 }
 ```
 
-![image-20220914205500174](D:\MyCtf\img\image-20220914205500174.png)
+![image-20220914205500174](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220914205500174.png)
 
 填进去就过关
 
-![image-20220914205629800](D:\MyCtf\img\image-20220914205629800.png)
+![image-20220914205629800](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220914205629800.png)
 
 ## logging
 
@@ -13349,7 +13349,7 @@ public class LogSpoofingTask extends AssignmentEndpoint {
 
 没看懂这关要干嘛  输admin 就过
 
-![image-20220914211141231](D:\MyCtf\img\image-20220914211141231.png)
+![image-20220914211141231](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220914211141231.png)
 
 ### LogBleedingTask
 
@@ -13398,13 +13398,13 @@ public class LogBleedingTask extends AssignmentEndpoint {
 
 这里让我们查日志 其实应该器linux机器上面查的 这里就先不搞了
 
-![image-20220914211821022](D:\MyCtf\img\image-20220914211821022.png)
+![image-20220914211821022](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220914211821022.png)
 
-![image-20220914211829938](D:\MyCtf\img\image-20220914211829938.png)
+![image-20220914211829938](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220914211829938.png)
 
-![image-20220914211841561](D:\MyCtf\img\image-20220914211841561.png)
+![image-20220914211841561](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220914211841561.png)
 
-![image-20220914211908537](D:\MyCtf\img\image-20220914211908537.png)
+![image-20220914211908537](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220914211908537.png)
 
 ## csrf
 
@@ -13527,27 +13527,27 @@ public class CSRFGetFlag {
 
 这里如果直接访问的话就会导致同一个host 这里我们需要做的是将我们写的恶意的链接发送给受害者,而不是让受害者在原先正常的链接上去请求
 
-![image-20220914220420551](D:\MyCtf\img\image-20220914220420551.png)
+![image-20220914220420551](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220914220420551.png)
 
 这里直接截取一个数据包 然后使用burp生成一个csrf表单
 
-![image-20220914220557068](D:\MyCtf\img\image-20220914220557068.png)
+![image-20220914220557068](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220914220557068.png)
 
-![image-20220914220621795](D:\MyCtf\img\image-20220914220621795.png)
+![image-20220914220621795](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220914220621795.png)
 
 我们在本地生成一个csrf.html文件并将内容填入进去
 
 来到webwolf上传文件并获取一个url
 
-![image-20220914220901885](D:\MyCtf\img\image-20220914220901885.png)
+![image-20220914220901885](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220914220901885.png)
 
 然后就是我们需要将这个url发送给受害者去点击 当然这里可以做成自动的点击操作
 
-![image-20220914220941291](D:\MyCtf\img\image-20220914220941291.png)
+![image-20220914220941291](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220914220941291.png)
 
 填入获取到的flag即可
 
-![image-20220914221015044](D:\MyCtf\img\image-20220914221015044.png)
+![image-20220914221015044](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220914221015044.png)
 
 ### ForgedReviews
 
@@ -13651,11 +13651,11 @@ public class Review {
 }
 ```
 
-![image-20220914224458214](D:\MyCtf\img\image-20220914224458214.png)
+![image-20220914224458214](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220914224458214.png)
 
 还是类似的操作
 
-![image-20220914224523769](D:\MyCtf\img\image-20220914224523769.png)
+![image-20220914224523769](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220914224523769.png)
 
 ### CSRFFeedback
 
@@ -13747,23 +13747,23 @@ public class CSRFFeedback extends AssignmentEndpoint {
 
 这里很明显需要发送的是json格式的数据
 
-![image-20220915115051056](D:\MyCtf\img\image-20220915115051056.png)
+![image-20220915115051056](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220915115051056.png)
 
 我们先按照之前的步骤走走看
 
-![image-20220915115922082](D:\MyCtf\img\image-20220915115922082.png)
+![image-20220915115922082](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220915115922082.png)
 
 这里就发现发送的请求就很奇怪 多了个= 我们看看怎么回事
 
-![image-20220915120033416](D:\MyCtf\img\image-20220915120033416.png)
+![image-20220915120033416](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220915120033416.png)
 
 这里有一个name 和 一个 value  其中的value 是空 也就是导致构造出来的post 表单是 (name) =  这种形式 因此导致多出个 = 
 
-![image-20220915121347911](D:\MyCtf\img\image-20220915121347911.png)
+![image-20220915121347911](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220915121347911.png)
 
 这里我们进行构造 可以看到这里我们把这个系统添加的 = 给利用进去了
 
-<img src="D:\MyCtf\img\image-20220915134615657.png" alt="image-20220915134615657" style="zoom:150%;" />
+<img src="https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220915134615657.png" alt="image-20220915134615657" style="zoom:150%;" />
 
 ```html
 <html>
@@ -13782,9 +13782,9 @@ public class CSRFFeedback extends AssignmentEndpoint {
 
 我们重新发送看看
 
-![image-20220915135148391](D:\MyCtf\img\image-20220915135148391.png)
+![image-20220915135148391](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220915135148391.png)
 
-![image-20220915135218882](D:\MyCtf\img\image-20220915135218882.png)
+![image-20220915135218882](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220915135218882.png)
 
 ### CSRFLogin
 
@@ -13835,21 +13835,21 @@ public class CSRFLogin extends AssignmentEndpoint {
 
 注册一个以cstf开头的用户名 其中的密码是你自己设置的
 
-![image-20220915140710128](D:\MyCtf\img\image-20220915140710128.png)
+![image-20220915140710128](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220915140710128.png)
 
 在登录时创建一个 csrf.html
 
-![image-20220915140820418](D:\MyCtf\img\image-20220915140820418.png)
+![image-20220915140820418](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220915140820418.png)
 
 上传 将链接发送给受害者 
 
-![image-20220915140936756](D:\MyCtf\img\image-20220915140936756.png)
+![image-20220915140936756](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220915140936756.png)
 
 当受害者点击 链接的时候就登录了 我们 csrf-123456 这个账号了
 
-![image-20220915141034347](D:\MyCtf\img\image-20220915141034347.png)
+![image-20220915141034347](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220915141034347.png)
 
-![image-20220915141058633](D:\MyCtf\img\image-20220915141058633.png)
+![image-20220915141058633](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220915141058633.png)
 
 也就是说这里 如果受害者没有发现这个账号不是他本人的 那么他的操作都会被我们给记录下来
 
@@ -13933,9 +13933,9 @@ public class SSRFTask1 extends AssignmentEndpoint {
 
 修改url 为 images%2Fjerry.png 过关 ? 这叫ssrf?
 
-![image-20220915143011264](D:\MyCtf\img\image-20220915143011264.png)
+![image-20220915143011264](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220915143011264.png)
 
-![image-20220915143058663](D:\MyCtf\img\image-20220915143058663.png)
+![image-20220915143058663](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220915143058663.png)
 
 ### SSRFTask2
 
@@ -13992,9 +13992,9 @@ public class SSRFTask2 extends AssignmentEndpoint {
 }
 ```
 
-![image-20220915144348783](D:\MyCtf\img\image-20220915144348783.png)
+![image-20220915144348783](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220915144348783.png)
 
-![image-20220915144451836](D:\MyCtf\img\image-20220915144451836.png)
+![image-20220915144451836](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220915144451836.png)
 
 ## bypass_restrictions
 
@@ -14064,7 +14064,7 @@ public class BypassRestrictionsFieldRestrictions extends AssignmentEndpoint {
 
 意思就是跳过前段验证
 
-![image-20220915210635708](D:\MyCtf\img\image-20220915210635708.png)
+![image-20220915210635708](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220915210635708.png)
 
 ### BypassRestrictionsFrontendValidation
 
@@ -14130,7 +14130,7 @@ public class BypassRestrictionsFrontendValidation extends AssignmentEndpoint {
 
 这关要绕过正则 记得把error归零
 
-![image-20220915213438199](D:\MyCtf\img\image-20220915213438199.png)
+![image-20220915213438199](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220915213438199.png)
 
 ## client_side_filtering
 
@@ -14283,13 +14283,13 @@ public class Salaries {
 
 这里的sb需要对应着xml文件去看
 
-![image-20220915221640970](D:\MyCtf\img\image-20220915221640970.png)
+![image-20220915221640970](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220915221640970.png)
 
 这里需要的是在众多的请求中找到这个请求信息
 
-![image-20220915223520300](D:\MyCtf\img\image-20220915223520300.png)
+![image-20220915223520300](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220915223520300.png)
 
-![image-20220915223538290](D:\MyCtf\img\image-20220915223538290.png)
+![image-20220915223538290](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220915223538290.png)
 
 ### ClientSideFilteringFreeAssignment
 
@@ -14321,11 +14321,11 @@ public class ClientSideFilteringFreeAssignment extends AssignmentEndpoint {
 
 同样找请求信息
 
-![image-20220915231851586](D:\MyCtf\img\image-20220915231851586.png)
+![image-20220915231851586](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220915231851586.png)
 
-![image-20220915231859141](D:\MyCtf\img\image-20220915231859141.png)
+![image-20220915231859141](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220915231859141.png)
 
-![image-20220915231913308](D:\MyCtf\img\image-20220915231913308.png)
+![image-20220915231913308](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220915231913308.png)
 
 ## html_tampering
 
@@ -14382,7 +14382,7 @@ public class HtmlTamperingTask extends AssignmentEndpoint {
 
 没意思
 
-![image-20220916124938043](D:\MyCtf\img\image-20220916124938043.png)
+![image-20220916124938043](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220916124938043.png)
 
 ## challenges
 
@@ -14589,11 +14589,11 @@ public class Assignment1 extends AssignmentEndpoint {
 }
 ```
 
-![image-20220916161838205](D:\MyCtf\img\image-20220916161838205.png)
+![image-20220916161838205](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220916161838205.png)
 
-![image-20220916161845528](D:\MyCtf\img\image-20220916161845528.png)
+![image-20220916161845528](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220916161845528.png)
 
-![image-20220916161913369](D:\MyCtf\img\image-20220916161913369.png)
+![image-20220916161913369](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220916161913369.png)
 
 ### challenge5
 
@@ -14672,7 +14672,7 @@ public class Assignment5 extends AssignmentEndpoint {
 
 
 
-![image-20220916164043242](D:\MyCtf\img\image-20220916164043242.png)
+![image-20220916164043242](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220916164043242.png)
 
 ### challenge7
 
@@ -14726,7 +14726,7 @@ public class Email implements Serializable {
 
 MD5工具类
 
-![image-20220916171722079](D:\MyCtf\img\image-20220916171722079.png)
+![image-20220916171722079](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220916171722079.png)
 
 #### PasswordResetLink
 
@@ -14761,7 +14761,7 @@ public class PasswordResetLink {
 
 注意差异
 
-![image-20220916180141412](D:\MyCtf\img\image-20220916180141412.png)
+![image-20220916180141412](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220916180141412.png)
 
 ```java
 package com.wanan.webgoat.lessons.challenges.challenge7;
@@ -14847,21 +14847,21 @@ public class Assignment7 extends AssignmentEndpoint {
 
 我们跟到这里
 
-![image-20220916175630366](D:\MyCtf\img\image-20220916175630366.png)
+![image-20220916175630366](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220916175630366.png)
 
 可以看到这里对random设置了一个 seed 并且这个值还是一个固定的值 那么这里会发生什么呢 ?
 
-![image-20220916175659295](D:\MyCtf\img\image-20220916175659295.png)
+![image-20220916175659295](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220916175659295.png)
 
 没错 这里就会导致每次生成的随机数都是相同的 可以自行尝试  这里也就导致了最终的admin重置链接会是相同的 那么我们只需要拿到源码就可以获取到 admin的重置链接
 
-![image-20220916175803866](D:\MyCtf\img\image-20220916175803866.png)
+![image-20220916175803866](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220916175803866.png)
 
 回到题目本身 首先我们需要获取到源码
 
-![image-20220916180347308](D:\MyCtf\img\image-20220916180347308.png)
+![image-20220916180347308](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220916180347308.png)
 
-![image-20220916180510821](D:\MyCtf\img\image-20220916180510821.png)
+![image-20220916180510821](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220916180510821.png)
 
 打开之后是一个git 那么现在我们需要回档 于git的上级目录进行操作
 
@@ -14869,23 +14869,23 @@ public class Assignment7 extends AssignmentEndpoint {
 git status
 ```
 
-![image-20220916180639971](D:\MyCtf\img\image-20220916180639971.png)
+![image-20220916180639971](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220916180639971.png)
 
 ```
 git log
 ```
 
-![image-20220916180735008](D:\MyCtf\img\image-20220916180735008.png)
+![image-20220916180735008](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220916180735008.png)
 
 ```
 git reset --hard
 ```
 
-![image-20220916180823948](D:\MyCtf\img\image-20220916180823948.png)
+![image-20220916180823948](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220916180823948.png)
 
 直接拖进去反编译一下 这里其实不太好搞 首先我们的username 我们知道是 admin 那这里的key呢?   其实就在 var2中给定义好了
 
-![image-20220916185301418](D:\MyCtf\img\image-20220916185301418.png)
+![image-20220916185301418](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220916185301418.png)
 
 拿到link
 
@@ -14893,15 +14893,15 @@ git reset --hard
 375afe1104f4a487a73823c50a9292a2
 ```
 
-![image-20220916190033285](D:\MyCtf\img\image-20220916190033285.png)
+![image-20220916190033285](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220916190033285.png)
 
 ```
 http://127.0.0.1:8082/WebGoat/challenge/7/reset-password/375afe1104f4a487a73823c50a9292a2
 ```
 
-![image-20220916190301274](D:\MyCtf\img\image-20220916190301274.png)
+![image-20220916190301274](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220916190301274.png)
 
-![image-20220916190314529](D:\MyCtf\img\image-20220916190314529.png)
+![image-20220916190314529](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220916190314529.png)
 
 ### challenge8
 
@@ -14996,20 +14996,20 @@ public class Assignment8 extends AssignmentEndpoint {
 
 当投票时显示需要登录
 
-![image-20220916204629963](D:\MyCtf\img\image-20220916204629963.png)
+![image-20220916204629963](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220916204629963.png)
 
 但是当请求为HEAD时可进入下一步操作
 
-![image-20220916204718045](D:\MyCtf\img\image-20220916204718045.png)
+![image-20220916204718045](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220916204718045.png)
 
-![image-20220916204726635](D:\MyCtf\img\image-20220916204726635.png)
+![image-20220916204726635](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220916204726635.png)
 
-![image-20220916204742991](D:\MyCtf\img\image-20220916204742991.png)
+![image-20220916204742991](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220916204742991.png)
 
 # 结尾
 
 通关了 除了有一关显示错误 一关不能做
 
-![image-20220916205852859](D:\MyCtf\img\image-20220916205852859.png)
+![image-20220916205852859](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220916205852859.png)
 
-![image-20220916210005892](D:\MyCtf\img\image-20220916210005892.png)
+![image-20220916210005892](https://wanan-1310031509.cos.ap-beijing.myqcloud.com/img/image-20220916210005892.png)

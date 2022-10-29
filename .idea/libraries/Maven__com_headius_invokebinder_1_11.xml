@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.headius:invokebinder:1.11">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../Data/secquan/Environment/apache-maven-3.8.5/repository/com/headius/invokebinder/1.11/invokebinder-1.11.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../Data/secquan/Environment/apache-maven-3.8.5/repository/com/headius/invokebinder/1.11/invokebinder-1.11-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../Data/secquan/Environment/apache-maven-3.8.5/repository/com/headius/invokebinder/1.11/invokebinder-1.11-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

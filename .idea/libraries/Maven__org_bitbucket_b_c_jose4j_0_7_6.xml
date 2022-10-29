@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.bitbucket.b_c:jose4j:0.7.6">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../Data/secquan/Environment/apache-maven-3.8.5/repository/org/bitbucket/b_c/jose4j/0.7.6/jose4j-0.7.6.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../Data/secquan/Environment/apache-maven-3.8.5/repository/org/bitbucket/b_c/jose4j/0.7.6/jose4j-0.7.6-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../Data/secquan/Environment/apache-maven-3.8.5/repository/org/bitbucket/b_c/jose4j/0.7.6/jose4j-0.7.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
